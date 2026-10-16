@@ -19,17 +19,17 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Build and Conquer Wiki",
+  shortName: "Build and Conquer",
+  logoText: "BC",
+  tagline: "City Building, Research & Modern Warfare Guides",
+  description: "Your ultimate guide to Build and Conquer on Roblox! Explore city levels, resources, research trees, missiles, drones, beginner tips and progression guides.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://buildandconquer.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://buildandconquer.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://www.roblox.com/games/103767961452227/Build-and-Conquer",
+  heroVideoId: "ufMki8BQKzc", // Build and Conquer city level (2/3/4) & population tutorial
   social: {
-    discord: "https://discord.gg/roblox",
+    discord: "https://discord.gg/slopcompany",
     youtube: "https://www.youtube.com/@roblox",
   },
   locales: ["en", "es", "pt", "de", "fr"],

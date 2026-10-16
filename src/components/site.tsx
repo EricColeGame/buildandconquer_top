@@ -20,9 +20,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
   const header = (
     <div className="flex items-center justify-between gap-4">
       <Link href={localizeHref("/", locale)} className="flex items-center gap-3">
-        <div className="relative h-9 w-9 overflow-hidden rounded-xl border border-border bg-muted shadow-sm">
-          <img src="/images/logo.png" alt={siteConfig.name} className="h-full w-full object-cover" />
-        </div>
+        <span className="grid h-9 w-9 place-items-center overflow-hidden rounded-xl border border-border bg-[hsl(var(--nav-theme))] shadow-sm" aria-hidden="true">
+          <span className="text-sm font-black tracking-tight text-[hsl(0_0%_8%)]">{siteConfig.logoText}</span>
+        </span>
         <span className="text-sm font-bold tracking-wide text-foreground">{siteConfig.name}</span>
       </Link>
       <nav className="hidden items-center gap-1 md:flex">
@@ -75,7 +75,7 @@ export function TrailerCard({ videoId }: { videoId: string }) {
   return (
     <div className="group relative cursor-pointer overflow-hidden rounded-2xl border border-border shadow-lg transition-all duration-200">
       <div className="relative aspect-video w-full">
-        <img src={videoId ? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg` : "/images/hero.webp"} alt={siteConfig.name} className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { (e.target as HTMLImageElement).src = "/images/hero.webp"; }} />
+        <img src="/images/trailer-cover.webp" alt="Build and Conquer gameplay video" className="size-full object-cover transition-all duration-200 group-hover:brightness-80" onError={(e) => { const img = e.target as HTMLImageElement; img.src = videoId ? `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg` : "/images/hero.webp"; }} />
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="flex size-20 items-center justify-center rounded-full bg-primary/10 backdrop-blur-md transition-transform duration-200 group-hover:scale-105 sm:size-24">
