@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Claim your first plot, spend the $2,500 starting budget carefully, and get the free wind turbine, water tower, barracks and research office online before your treasury drains."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Make Money Fast",
+          "description": "Commercial buildings and populated houses pay cash every pay cycle, so keep power and water ahead of growth and never leave an office empty while it still charges upkeep."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "City Levels & Population",
+          "description": "City level rises from population, not from spending: push dense apartments to around 250 residents to reach Level 2 and unlock coal power, banks and military research."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Build and Conquer."
+          "title": "Military & Air Defense",
+          "description": "Research only unlocks military hardware — barracks, Sloparms offices, SRBM and MRBM launchers, Patriot batteries and Iron Dome — and most of it sits behind a higher city level."
         }
       ]
     },
@@ -66,78 +66,78 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "City Levels",
+        "Resources & Economy",
+        "Drone Warfare"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Your first plot, the $2,500 budget and the 4-stud road rule that keeps every building connected.",
+          "href": "/guide/build-and-conquer-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Codes & Community",
+          "description": "Why the V0.1 beta has no working codes yet, and where patch news really lands.",
+          "href": "/codes/build-and-conquer-codes"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "City Levels & Population",
+          "description": "Level 1 to Level 5 unlocks, population gates and the steel bill for high rises.",
+          "href": "/progression/build-and-conquer-city-levels"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Resources & Economy",
+          "description": "Money, power, water, coal, iron, oil and steel — how each production loop feeds the next.",
+          "href": "/mechanics/build-and-conquer-resources"
+        },
+        {
+          "badge": "New",
+          "title": "Drone Warfare",
+          "description": "Scout, Shahed and heavy strike drones, plus the unlock path to a working air force.",
+          "href": "/combat/build-and-conquer-drones"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Missiles & Air Defense",
+          "description": "SRBM, MRBM and hypersonic escalation against Patriot batteries and Iron Dome.",
+          "href": "/combat/build-and-conquer-missiles"
+        },
+        {
+          "badge": "Popular",
+          "title": "Military Research",
+          "description": "Barracks, Sloparms offices and military factories that turn tax income into hardware.",
+          "href": "/mechanics/build-and-conquer-military"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Tips and Tricks",
+          "description": "The habits that keep a Build and Conquer treasury out of the red.",
+          "href": "/guide/build-and-conquer-tips-and-tricks"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "How to Get Money",
+          "description": "Faster pay cycles, denser housing and the commercial mix that funds expansion.",
+          "href": "/guide/build-and-conquer-how-to-get-money"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Build and Conquer?",
       "paragraphs": [
-        "Build and Conquer is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Build and Conquer is a Roblox city-building and modern warfare strategy game from developer group The Slop Company. Every match starts on an empty plot: you lay roads, connect power and water, zone housing and shops, and grow a population that pays taxes every pay cycle while mines, oil pumps and refineries feed the industrial chain behind your army.",
+        "As your city levels up you unlock coal and nuclear power, steel-hungry high rises, and a research tree that produces only military items — barracks, military factories, Sloparms offices, ballistic missile launchers, Patriot batteries and Iron Dome. From your first solar panel to a hypersonic strike package, this wiki covers every system with guides, data tables and step-by-step walkthroughs."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "The Slop Company"
         },
         {
           "label": "Platform",
@@ -145,158 +145,280 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "City Building & Strategy"
         },
         {
           "label": "Visits",
-          "value": "12.6M+"
+          "value": "3.77M+"
         },
         {
           "label": "Favorites",
-          "value": "243K+"
+          "value": "37K+"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Discord Members",
+          "value": "20K+"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Version",
+          "value": "V0.1 Beta"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Build and Conquer Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "From your first plot to missile silos and drone warfare, these Build and Conquer guides cover city levels, resources, research, air defense and the platform details every new mayor needs.",
       "modules": [
         {
           "order": 1,
-          "name": "Build and Conquer Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/build-and-conquer-codes",
-          "displayType": "code-box",
+          "name": "Build and Conquer Beginner Guide",
+          "description": "First-session walkthrough for the Roblox experience: claim an empty plot, place a solar panel for power, connect water, add housing for workers, then open shops so the city starts earning money every pay cycle.",
+          "href": "/guide/build-and-conquer-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Claim a plot on the 8-plot map, name your country and pick a flag — every match opens with an empty parcel and $2,500 in the treasury"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Place the free wind turbine, water tower, starter barracks and research office first so nothing locks up before you spend a single dollar"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Follow the 4-stud rule: every house, shop and utility must sit within 4 studs of a road or the placement ghost turns red"
+            },
+            {
+              "label": "4",
+              "detail": "Sketch the city grid with $0 dirt roads, then upgrade only the busy corridors to two-lane roads at $10 per unit"
+            },
+            {
+              "label": "5",
+              "detail": "Keep power and water grids separate — electricity cannot bridge across water installations, and pipes need a continuous path"
+            },
+            {
+              "label": "6",
+              "detail": "Stabilise tax income before touching military research; the tech tree stays locked until the city reaches Level 2"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/build-and-conquer-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Build and Conquer Resources and Economy Guide",
+          "description": "How money, energy, water, coal, iron and oil move through the city: commercial buildings earn money, mines and oil pumps feed factories and refineries, and refineries turn crude oil into fuel for the war economy.",
+          "href": "/mechanics/build-and-conquer-resources",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Money",
+              "detail": "Commercial venues and populated residences pay cash every pay cycle, while every building quietly deducts its upkeep from the same balance"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Power",
+              "detail": "Solar Panels cost $100 for 20 energy and Wind Turbines $500 for 200 energy, and substations relay that current deeper into the plot"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Water",
+              "detail": "A $12 Water Tower covers 200 citizens in a 500x500 area, while the $5,000 Desalination Plant pipes the entire city"
+            },
+            {
+              "label": "Coal",
+              "detail": "The $5,000 Coal Power Plant burns mined coal for 6,000 energy, so stockpile fuel before you flip the switch"
+            },
+            {
+              "label": "Iron",
+              "detail": "Iron ore from community mines feeds the smelters that produce the structural steel used by offices and defense batteries"
+            },
+            {
+              "label": "Oil",
+              "detail": "Oil pumps supply crude to refineries, which convert it into the refined fuel that vehicles and missile programs consume"
+            },
+            {
+              "label": "Steel",
+              "detail": "Steel becomes mandatory from City Level 3 onward for city apartments, office towers and municipal precincts"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/build-and-conquer-tier-list",
-          "displayType": "tier-grid",
+          "name": "Build and Conquer Buildings and City Levels Guide",
+          "description": "Building categories, unlock levels, energy and water demand, steel requirements and the population-driven conditions that raise your city level and unlock new technology.",
+          "href": "/progression/build-and-conquer-city-levels",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Level 1",
+              "detail": "Settlement founding: houses and two story homes run on solar panels, wind turbines and water towers with no raw materials required"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Level 2",
+              "detail": "Suburban expansion unlocks coal power plants, the Sheriff's Office and banks, and switches on citizen happiness tracking"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Level 3",
+              "detail": "Urban densification brings city apartments and large supermarkets, but every new building now demands steel and a bigger workforce"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Level 4",
+              "detail": "Megacity infrastructure adds nuclear power plants, corporate high rises and a uranium draw of 1 unit per minute"
+            },
+            {
+              "label": "Level 5+",
+              "detail": "Superpower endgame layers advanced national defense on top of multi-resource supply chains and high per-cycle cash upkeep"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/build-and-conquer-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Build and Conquer Military and Research Guide",
+          "description": "Research only unlocks military items and buildings, and most of it is gated behind a higher city level: barracks, military factories, Sloparms offices, SRBM and MRBM launchers, Patriot batteries and Iron Dome.",
+          "href": "/mechanics/build-and-conquer-military",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Research",
+              "detail": "Research exclusively unlocks military items and structures, and the tech tree will not open until your city level and population qualify"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Barracks",
+              "detail": "The starter barracks produces basic ground personnel and security crews that patrol the municipal core"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Sloparms",
+              "detail": "Small, Medium and Large Sloparms Offices push the tech tree from entry-level blueprints to advanced rocketry and guidance packages"
+            },
+            {
+              "label": "Factory",
+              "detail": "Military Factories assemble armored transports and basic munitions, while Large Military Factories mass-produce strike assets"
+            },
+            {
+              "label": "Missiles",
+              "detail": "Ballistic firepower follows an escalation ladder — SRBM launcher, then MRBM launcher, then hypersonic missiles unlocked by confirmed hits"
+            },
+            {
+              "label": "Patriot",
+              "detail": "Patriot batteries and Iron Dome interceptors give you the long-range and point-defense layers that keep a border city alive"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/build-and-conquer-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Build and Conquer Drone and Missile Warfare Guide",
+          "description": "Air warfare overview for the Roblox experience: Shahed drones, ballistic missile launchers and the Patriot / Iron Dome air-defence answers players use to protect a city from raids.",
+          "href": "/combat/build-and-conquer-drones",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Iron Dome and Patriot PAC-3 layered over the city core, intercepting saturation drone swarms and heavy ordnance before they reach your commercial blocks"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Patriot Battery on the border perimeter, engaging MRBMs and high-altitude rockets early — just keep a backup power line feeding it"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Shahed loitering munitions, the one-way strike drones that breach fortified perimeters and gut power plants, refineries and command posts"
+            },
+            {
+              "label": "C",
+              "detail": "Scout drones: cheap, fast and fragile, best used to clear fog, reveal hidden missile pads and trigger anti-air coverage before the strike package commits"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/build-and-conquer-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Build and Conquer Roblox Platform Guide",
+          "description": "How to join the experience on PC, mobile, tablet or console through the official Roblox client, what a Roblox account needs, and why there is no separate APK or Steam build for this game.",
+          "href": "/platforms/build-and-conquer-roblox",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Roblox",
+              "detail": "Build and Conquer runs entirely inside the Roblox engine, so you launch it from the official Roblox client or web player"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "PC",
+              "detail": "Play on PC through the Roblox desktop app or a browser; there is no standalone installer and no Steam release"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Mobile",
+              "detail": "The Roblox mobile app covers Android and iOS phones and tablets — no third-party APK for this experience exists"
+            },
+            {
+              "label": "Console",
+              "detail": "Roblox ships on Xbox consoles, so Build and Conquer can be played there with a controller layout"
+            },
+            {
+              "label": "Account",
+              "detail": "A free Roblox account is the only requirement: the experience itself costs nothing to join"
+            },
+            {
+              "label": "Servers",
+              "detail": "Each server hosts up to 8 players across an 8-plot map, so rival nations are building on the parcel next door"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Build and Conquer Codes and Community",
+          "description": "Where Build and Conquer codes and patch news actually appear: the official The Slop Company Discord and Roblox group, plus community wikis. No standalone official code portal exists.",
+          "href": "/codes/build-and-conquer-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "None",
+              "detail": "As of October 2026 the V0.1 beta has no redemption system deployed, so no promo code is active right now"
+            },
+            {
+              "label": "BETA RELEASE",
+              "detail": "A frequently searched phrase in code lists, but it is not an official Build and Conquer promo code"
+            },
+            {
+              "label": "SLOPCOMPANY",
+              "detail": "The developer group name that keeps appearing in third-party code lists — no in-game reward is attached to it"
+            },
+            {
+              "label": "DISCORD",
+              "detail": "The Slop Company Discord is the channel where patch notes and any future code drops are announced first"
+            },
+            {
+              "label": "GROUP",
+              "detail": "The official Roblox group posts update news, and community wikis track balance changes between patches"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Build and Conquer Tips and Strategy",
+          "description": "Community-tested habits from player guides: keep power and water ahead of growth, protect the economy before expanding the army, and check city level requirements before buying expensive steel-heavy buildings.",
+          "href": "/guide/build-and-conquer-tips-and-tricks",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Power",
+              "detail": "Keep power and water ahead of growth: a blackout or water shortage freezes population, workforce and tax income at once"
+            },
+            {
+              "label": "Defense",
+              "detail": "Protect the economy before expanding the army — an unfortified city loses its power grid and factories within minutes"
+            },
+            {
+              "label": "Budget",
+              "detail": "Check the city level requirement before buying steel-heavy buildings, or construction stalls halfway through and blocks your plot"
+            },
+            {
+              "label": "Roads",
+              "detail": "Lay free dirt roads while sketching the grid, then pave only the corridors that actually carry heavy traffic"
+            },
+            {
+              "label": "Workers",
+              "detail": "Every office and factory needs workers from housing, so balance residential density against your job count"
+            },
+            {
+              "label": "Happiness",
+              "detail": "Communal housing is cheap population but carries a happiness penalty; offset it with strip malls and supermarkets"
             }
           ]
         }
@@ -304,27 +426,31 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Build and Conquer.",
+      "description": "Quick answers to the most common questions about Build and Conquer on Roblox.",
       "items": [
         {
-          "question": "What is Build and Conquer?",
-          "answer": "Build and Conquer is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "Is Build and Conquer free to play?",
+          "answer": "Yes. Build and Conquer is a free Roblox experience from The Slop Company — there is no paid client, APK or Steam version, and you only need a free Roblox account to join a server."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Do Build and Conquer codes exist?",
+          "answer": "Not yet. As of October 2026 the V0.1 beta has no redemption system deployed, so every code list you find online is either unconfirmed or copied from another game. Patch news appears on the official Discord and Roblox group."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I reach City Level 2 in Build and Conquer?",
+          "answer": "Grow population to roughly 250 residents. Place dense mid-rise apartments on a compact utility footprint, keep power and water coverage high, and make sure every building sits within 4 studs of a road."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I make money in Build and Conquer?",
+          "answer": "Commercial buildings and populated houses pay cash every pay cycle. Balance residential and commercial zones, avoid empty offices that still charge upkeep, and never let power or water fall behind growth."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Which platforms can I play Build and Conquer on?",
+          "answer": "Any device that runs Roblox: PC through the desktop app or browser, Android and iOS phones and tablets through the Roblox app, and Xbox consoles. There is no separate download."
+        },
+        {
+          "question": "Do I need military research to defend my Build and Conquer city?",
+          "answer": "Yes. Research unlocks barracks, military factories, Sloparms offices, SRBM and MRBM launchers, Patriot batteries and Iron Dome, and most of the tree is gated behind a higher city level."
         }
       ]
     },
