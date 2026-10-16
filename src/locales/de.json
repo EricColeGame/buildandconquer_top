@@ -1,1 +1,535 @@
-{}
+{
+  "site": {
+    "name": "Build and Conquer Wiki",
+    "shortName": "Build and Conquer",
+    "tagline": "Stadtaufbau, Forschung & moderne Kriegsführung – Guides",
+    "description": "Dein ultimativer Guide zu Build and Conquer auf Roblox! Entdecke Stadtstufen, Ressourcen, Forschungsbäume, Raketen, Drohnen, Einsteigertipps und Fortschrittsguides.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Guide",
+    "progression": "Fortschritt",
+    "mechanics": "Mechaniken",
+    "combat": "Kampf",
+    "platforms": "Plattformen",
+    "codes": "Codes",
+    "community": "Community"
+  },
+  "home": {
+    "meta": {
+      "title": "Build and Conquer Wiki – Guides zu Stadtaufbau & Kriegsführung auf Roblox",
+      "description": "Das Build and Conquer Wiki behandelt das Roblox-Strategiespiel von The Slop Company: Stadtstufen, Ressourcen, Forschung, Raketen, Drohnen und Einsteigerguides."
+    },
+    "hero": {
+      "eyebrow": "Stadtaufbau & moderne Kriegsführung auf Roblox",
+      "title": "Build and Conquer Wiki",
+      "description": "Build and Conquer ist ein Roblox-Strategiespiel von The Slop Company: Starte auf einem leeren Grundstück und baue mit Straßen, Wohnungen, Fabriken, Strom und Wasser ein Land auf, erforsche Technologien, produziere Raketen und Drohnen und kämpfe gegen andere Nationen um strategischen Boden.",
+      "stats": [
+        "3,77 Mio.+ Roblox-Besuche",
+        "8.570+ Gruppenmitglieder",
+        "20K+ Discord-Mitglieder",
+        "V0.1 Beta-Version"
+      ],
+      "primaryCta": "Einsteigerguide",
+      "secondaryCta": "Stadtstufen & Ressourcen",
+      "tertiaryCta": "Aktive Codes",
+      "videoLabel": "Gameplay-Video"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Build and Conquer-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteigerguide",
+          "description": "Sichere dir dein erstes Grundstück, gib das Startbudget von 2.500 $ sorgfältig aus und bringe die kostenlose Windturbine, den Wasserturm, die Kaserne und das Forschungsbüro ans Netz, bevor deine Kasse leer ist."
+        },
+        {
+          "number": "2",
+          "title": "Schnell Geld verdienen",
+          "description": "Gewerbegebäude und bewohnte Häuser zahlen in jedem Lohnzyklus Geld, also halte Strom und Wasser dem Wachstum voraus und lass kein Büro leer, solange es noch Unterhalt kostet."
+        },
+        {
+          "number": "3",
+          "title": "Stadtstufen & Bevölkerung",
+          "description": "Die Stadtstufe steigt durch Bevölkerung, nicht durch Ausgaben: Bringe dichte Apartments auf rund 250 Einwohner, um Stufe 2 zu erreichen und Kohlekraft, Banken und Militärforschung freizuschalten."
+        },
+        {
+          "number": "4",
+          "title": "Militär & Luftverteidigung",
+          "description": "Forschung schaltet nur militärische Ausrüstung frei – Kaserne, Sloparms-Büros, SRBM- und MRBM-Werfer, Patriot-Batterien und Iron Dome – und das meiste davon steckt hinter einer höheren Stadtstufe."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade angesagt",
+      "quickLinks": [
+        "Einsteigerguide",
+        "Stadtstufen",
+        "Ressourcen & Wirtschaft",
+        "Drohnenkrieg"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteigerguide",
+          "description": "Dein erstes Grundstück, das Budget von 2.500 $ und die 4-Stud-Straßenregel, die jedes Gebäude anbindet.",
+          "href": "/guide/build-and-conquer-beginner-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Codes & Community",
+          "description": "Warum die V0.1-Beta noch keine funktionierenden Codes hat und wo Patch-News wirklich landen.",
+          "href": "/codes/build-and-conquer-codes"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Stadtstufen & Bevölkerung",
+          "description": "Freischaltungen von Stufe 1 bis Stufe 5, Bevölkerungsgrenzen und die Stahlrechnung für Hochhäuser.",
+          "href": "/progression/build-and-conquer-city-levels"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Ressourcen & Wirtschaft",
+          "description": "Geld, Strom, Wasser, Kohle, Eisen, Öl und Stahl – wie jeder Produktionskreislauf den nächsten speist.",
+          "href": "/mechanics/build-and-conquer-resources"
+        },
+        {
+          "badge": "Neu",
+          "title": "Drohnenkrieg",
+          "description": "Aufklärungs-, Shahed- und schwere Angriffsdrohnen plus der Freischaltpfad zu einer einsatzfähigen Luftwaffe.",
+          "href": "/combat/build-and-conquer-drones"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Raketen & Luftverteidigung",
+          "description": "SRBM, MRBM und Hyperschall-Eskalation gegen Patriot-Batterien und Iron Dome.",
+          "href": "/combat/build-and-conquer-missiles"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Militärforschung",
+          "description": "Kasernen, Sloparms-Büros und Militärfabriken, die Steuereinnahmen in Ausrüstung verwandeln.",
+          "href": "/mechanics/build-and-conquer-military"
+        },
+        {
+          "badge": "Neu",
+          "title": "Tipps und Tricks",
+          "description": "Die Gewohnheiten, die die Build and Conquer-Kasse aus den roten Zahlen halten.",
+          "href": "/guide/build-and-conquer-tips-and-tricks"
+        },
+        {
+          "badge": "Neu",
+          "title": "Wie man Geld verdient",
+          "description": "Schnellere Lohnzyklen, dichtere Wohnbebauung und der Gewerbemix, der den Ausbau finanziert.",
+          "href": "/guide/build-and-conquer-how-to-get-money"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Build and Conquer?",
+      "paragraphs": [
+        "Build and Conquer ist ein Roblox-Strategiespiel für Stadtaufbau und moderne Kriegsführung der Entwicklergruppe The Slop Company. Jede Runde beginnt auf einem leeren Grundstück: Du legst Straßen an, verbindest Strom und Wasser, weist Wohn- und Geschäftsflächen aus und lässt eine Bevölkerung wachsen, die in jedem Lohnzyklus Steuern zahlt, während Minen, Ölpumpen und Raffinerien die Industriekette hinter deiner Armee versorgen.",
+        "Mit jeder Stadtstufe schaltest du Kohle- und Kernkraft, stahlhungrige Hochhäuser und einen Forschungsbaum frei, der ausschließlich militärische Gegenstände produziert – Kaserne, Militärfabriken, Sloparms-Büros, ballistische Raketenwerfer, Patriot-Batterien und Iron Dome. Von deinem ersten Solarmodul bis zum Hyperschall-Angriffspaket deckt dieses Wiki jedes System mit Guides, Datentabellen und Schritt-für-Schritt-Anleitungen ab."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "The Slop Company"
+        },
+        {
+          "label": "Plattform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Stadtaufbau & Strategie"
+        },
+        {
+          "label": "Besuche",
+          "value": "3,77 Mio.+"
+        },
+        {
+          "label": "Favoriten",
+          "value": "37K+"
+        },
+        {
+          "label": "Discord-Mitglieder",
+          "value": "20K+"
+        },
+        {
+          "label": "Version",
+          "value": "V0.1 Beta"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Das Build and Conquer Wiki entdecken",
+      "description": "Vom ersten Grundstück bis zu Raketensilos und Drohnenkrieg: Diese Build and Conquer-Guides behandeln Stadtstufen, Ressourcen, Forschung, Luftverteidigung und alle Plattformdetails, die jeder neue Bürgermeister kennen muss.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Build and Conquer Einsteigerguide",
+          "description": "Schritt-für-Schritt-Anleitung für die erste Sitzung im Roblox-Spiel: Grundstück beanspruchen, ein Solarmodul für Strom setzen, Wasser anschließen, Wohnraum für Arbeiter schaffen und dann Läden eröffnen, damit die Stadt in jedem Lohnzyklus Geld verdient.",
+          "href": "/guide/build-and-conquer-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Beanspruche ein Grundstück auf der Karte mit 8 Parzellen, benenne dein Land und wähle eine Flagge – jede Runde startet mit einer leeren Parzelle und 2.500 $ in der Kasse"
+            },
+            {
+              "label": "2",
+              "detail": "Setze zuerst die kostenlose Windturbine, den Wasserturm, die Startkaserne und das Forschungsbüro, damit nichts blockiert, bevor du auch nur einen Dollar ausgibst"
+            },
+            {
+              "label": "3",
+              "detail": "Befolge die 4-Stud-Regel: Jedes Haus, jeder Laden und jedes Versorgungsgebäude muss innerhalb von 4 Studs an einer Straße liegen, sonst wird der Platzierungsgeist rot"
+            },
+            {
+              "label": "4",
+              "detail": "Skizziere das Stadt-Raster mit kostenlosen Schotterstraßen und baue nur die stark befahrenen Korridore für 10 $ pro Einheit zu zweispurigen Straßen aus"
+            },
+            {
+              "label": "5",
+              "detail": "Halte Strom- und Wassernetze getrennt – Elektrizität kann Wasseranlagen nicht überbrücken, und Rohre brauchen einen durchgehenden Pfad"
+            },
+            {
+              "label": "6",
+              "detail": "Stabilisiere die Steuereinnahmen, bevor du die Militärforschung anfasst; der Technologiebaum bleibt gesperrt, bis die Stadt Stufe 2 erreicht"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Build and Conquer Guide zu Ressourcen und Wirtschaft",
+          "description": "Wie Geld, Energie, Wasser, Kohle, Eisen und Öl durch die Stadt fließen: Gewerbegebäude verdienen Geld, Minen und Ölpumpen versorgen Fabriken und Raffinerien, und Raffinerien machen aus Rohöl Treibstoff für die Kriegswirtschaft.",
+          "href": "/mechanics/build-and-conquer-resources",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Geld",
+              "detail": "Gewerbebetriebe und bewohnte Wohnhäuser zahlen in jedem Lohnzyklus Geld, während jedes Gebäude still seinen Unterhalt vom selben Konto abzieht"
+            },
+            {
+              "label": "Strom",
+              "detail": "Solarmodule kosten 100 $ für 20 Energie und Windturbinen 500 $ für 200 Energie; Umspannwerke leiten den Strom tiefer ins Grundstück"
+            },
+            {
+              "label": "Wasser",
+              "detail": "Ein Wasserturm für 12 $ versorgt 200 Bürger auf einer Fläche von 500x500, während die Entsalzungsanlage für 5.000 $ die ganze Stadt versorgt"
+            },
+            {
+              "label": "Kohle",
+              "detail": "Das Kohlekraftwerk für 5.000 $ verbrennt abgebaute Kohle für 6.000 Energie, also lege Brennstoffvorräte an, bevor du den Schalter umlegst"
+            },
+            {
+              "label": "Eisen",
+              "detail": "Eisenerz aus Gemeinschaftsminen versorgt die Schmelzen, die den Baustahl für Büros und Verteidigungsbatterien produzieren"
+            },
+            {
+              "label": "Öl",
+              "detail": "Ölpumpen liefern Rohöl an Raffinerien, die es in den raffinierten Treibstoff umwandeln, den Fahrzeuge und Raketenprogramme verbrauchen"
+            },
+            {
+              "label": "Stahl",
+              "detail": "Ab Stadtstufe 3 wird Stahl Pflicht für Stadtapartments, Bürotürme und kommunale Viertel"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Build and Conquer Guide zu Gebäuden und Stadtstufen",
+          "description": "Gebäudekategorien, Freischaltstufen, Energie- und Wasserbedarf, Stahlanforderungen und die bevölkerungsabhängigen Bedingungen, die deine Stadtstufe erhöhen und neue Technologien freischalten.",
+          "href": "/progression/build-and-conquer-city-levels",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Stufe 1",
+              "detail": "Gründung der Siedlung: Häuser und zweistöckige Wohnhäuser laufen mit Solarmodulen, Windturbinen und Wassertürmen und benötigen keine Rohstoffe"
+            },
+            {
+              "label": "Stufe 2",
+              "detail": "Die Vorstadterweiterung schaltet Kohlekraftwerke, das Sheriff-Büro und Banken frei und aktiviert die Zufriedenheitsanzeige der Bürger"
+            },
+            {
+              "label": "Stufe 3",
+              "detail": "Die urbane Verdichtung bringt Stadtapartments und große Supermärkte, doch jedes neue Gebäude verlangt jetzt Stahl und mehr Arbeitskräfte"
+            },
+            {
+              "label": "Stufe 4",
+              "detail": "Die Megacity-Infrastruktur ergänzt Kernkraftwerke, Unternehmenshochhäuser und einen Uranverbrauch von 1 Einheit pro Minute"
+            },
+            {
+              "label": "Stufe 5+",
+              "detail": "Das Supermacht-Endspiel legt eine erweiterte Landesverteidigung über Lieferketten mit mehreren Ressourcen und hohe Barunterhaltskosten pro Zyklus"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Build and Conquer Guide zu Militär und Forschung",
+          "description": "Forschung schaltet ausschließlich militärische Gegenstände und Gebäude frei, und das meiste davon ist hinter einer höheren Stadtstufe gesperrt: Kaserne, Militärfabriken, Sloparms-Büros, SRBM- und MRBM-Werfer, Patriot-Batterien und Iron Dome.",
+          "href": "/mechanics/build-and-conquer-military",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Forschung",
+              "detail": "Forschung schaltet ausschließlich militärische Gegenstände und Bauwerke frei, und der Technologiebaum öffnet erst, wenn Stadtstufe und Bevölkerung passen"
+            },
+            {
+              "label": "Kaserne",
+              "detail": "Die Startkaserne produziert einfaches Bodenpersonal und Sicherheitstrupps, die das Stadtzentrum patrouillieren"
+            },
+            {
+              "label": "Sloparms",
+              "detail": "Kleine, mittlere und große Sloparms-Büros treiben den Technologiebaum von Einsteigerbauplänen bis zu fortgeschrittener Raketentechnik und Lenkpaketen voran"
+            },
+            {
+              "label": "Fabrik",
+              "detail": "Militärfabriken montieren gepanzerte Transporter und einfache Munition, während große Militärfabriken Angriffsmittel in Serie produzieren"
+            },
+            {
+              "label": "Raketen",
+              "detail": "Ballistische Feuerkraft folgt einer Eskalationsleiter – SRBM-Werfer, dann MRBM-Werfer, dann Hyperschallraketen, die durch bestätigte Treffer freigeschaltet werden"
+            },
+            {
+              "label": "Patriot",
+              "detail": "Patriot-Batterien und Iron Dome-Abfangraketen geben dir die Langstrecken- und Punktverteidigungsschichten, die eine Grenzstadt am Leben halten"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Build and Conquer Guide zu Drohnen- und Raketenkrieg",
+          "description": "Überblick über den Luftkrieg im Roblox-Spiel: Shahed-Drohnen, ballistische Raketenwerfer und die Patriot- / Iron Dome-Antworten, mit denen Spieler ihre Stadt vor Angriffen schützen.",
+          "href": "/combat/build-and-conquer-drones",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Iron Dome und Patriot PAC-3 über dem Stadtkern abgestuft, um Sättigungs-Drohnenschwärme und schwere Waffen abzufangen, bevor sie deine Gewerbeblöcke erreichen"
+            },
+            {
+              "label": "A",
+              "detail": "Patriot-Batterie am Grenzperimeter, die MRBMs und Höhenraketen früh bekämpft – halte nur eine Backup-Stromleitung daran angeschlossen"
+            },
+            {
+              "label": "B",
+              "detail": "Shahed-Loitering-Munition, die Einweg-Angriffsdrohnen, die befestigte Perimeter durchbrechen und Kraftwerke, Raffinerien und Kommandoposten zerstören"
+            },
+            {
+              "label": "C",
+              "detail": "Aufklärungsdrohnen: billig, schnell und zerbrechlich, am besten geeignet, um Nebel zu lichten, versteckte Raketenstellungen aufzudecken und die Flugabwehr auszulösen, bevor das Angriffspaket startet"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Build and Conquer Guide zur Roblox-Plattform",
+          "description": "Wie du über den offiziellen Roblox-Client auf PC, Handy, Tablet oder Konsole beitrittst, was ein Roblox-Konto braucht und warum es für dieses Spiel keine separate APK oder Steam-Version gibt.",
+          "href": "/platforms/build-and-conquer-roblox",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Roblox",
+              "detail": "Build and Conquer läuft vollständig in der Roblox-Engine, du startest es also über den offiziellen Roblox-Client oder den Web-Player"
+            },
+            {
+              "label": "PC",
+              "detail": "Spiele am PC über die Roblox-Desktop-App oder einen Browser; es gibt keinen eigenständigen Installer und keine Steam-Version"
+            },
+            {
+              "label": "Mobil",
+              "detail": "Die Roblox-App für Mobilgeräte deckt Android- und iOS-Handys und -Tablets ab – eine Drittanbieter-APK für dieses Spiel existiert nicht"
+            },
+            {
+              "label": "Konsole",
+              "detail": "Roblox erscheint auf Xbox-Konsolen, also lässt sich Build and Conquer dort mit Controller-Steuerung spielen"
+            },
+            {
+              "label": "Konto",
+              "detail": "Ein kostenloses Roblox-Konto ist die einzige Voraussetzung: Der Beitritt zum Spiel selbst kostet nichts"
+            },
+            {
+              "label": "Server",
+              "detail": "Jeder Server hostet bis zu 8 Spieler auf einer Karte mit 8 Parzellen, also bauen rivalisierende Nationen direkt nebenan"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Build and Conquer Codes und Community",
+          "description": "Wo Build and Conquer-Codes und Patch-News wirklich auftauchen: der offizielle Discord von The Slop Company und die Roblox-Gruppe sowie Community-Wikis. Ein eigenständiges offizielles Code-Portal existiert nicht.",
+          "href": "/codes/build-and-conquer-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "None",
+              "detail": "Stand Oktober 2026 hat die V0.1-Beta kein Einlösesystem, es ist also derzeit kein Promo-Code aktiv"
+            },
+            {
+              "label": "BETA RELEASE",
+              "detail": "Ein häufig gesuchter Ausdruck in Code-Listen, aber kein offizieller Build and Conquer-Promo-Code"
+            },
+            {
+              "label": "SLOPCOMPANY",
+              "detail": "Der Name der Entwicklergruppe, der immer wieder in Code-Listen Dritter auftaucht – daran hängt keine Ingame-Belohnung"
+            },
+            {
+              "label": "DISCORD",
+              "detail": "Der Discord von The Slop Company ist der Kanal, auf dem Patch-Notes und künftige Code-Veröffentlichungen zuerst angekündigt werden"
+            },
+            {
+              "label": "GROUP",
+              "detail": "Die offizielle Roblox-Gruppe postet Update-News, und Community-Wikis verfolgen Balance-Änderungen zwischen Patches"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Build and Conquer Tipps und Strategie",
+          "description": "Von der Community erprobte Gewohnheiten aus Spielerguides: Halte Strom und Wasser dem Wachstum voraus, schütze die Wirtschaft vor dem Ausbau der Armee und prüfe die Stadtstufenanforderungen, bevor du teure stahllastige Gebäude kaufst.",
+          "href": "/guide/build-and-conquer-tips-and-tricks",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Strom",
+              "detail": "Halte Strom und Wasser dem Wachstum voraus: Ein Blackout oder Wassermangel friert Bevölkerung, Arbeitskräfte und Steuereinnahmen gleichzeitig ein"
+            },
+            {
+              "label": "Verteidigung",
+              "detail": "Schütze die Wirtschaft, bevor du die Armee ausbaust – eine unbefestigte Stadt verliert ihr Stromnetz und ihre Fabriken innerhalb von Minuten"
+            },
+            {
+              "label": "Budget",
+              "detail": "Prüfe die Stadtstufenanforderung, bevor du stahllastige Gebäude kaufst, sonst stockt der Bau mittendrin und blockiert dein Grundstück"
+            },
+            {
+              "label": "Straßen",
+              "detail": "Lege kostenlose Schotterstraßen an, während du das Raster skizzierst, und pflastere nur die Korridore, die wirklich stark befahren sind"
+            },
+            {
+              "label": "Arbeiter",
+              "detail": "Jedes Büro und jede Fabrik braucht Arbeiter aus dem Wohnraum, also balanciere die Wohndichte gegen deine Anzahl an Arbeitsplätzen"
+            },
+            {
+              "label": "Zufriedenheit",
+              "detail": "Gemeinschaftswohnungen sind billige Bevölkerung, bringen aber einen Zufriedenheitsmalus; gleiche ihn mit Einkaufszentren und Supermärkten aus"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Build and Conquer auf Roblox.",
+      "items": [
+        {
+          "question": "Ist Build and Conquer kostenlos spielbar?",
+          "answer": "Ja. Build and Conquer ist ein kostenloses Roblox-Spiel von The Slop Company – es gibt keinen bezahlten Client, keine APK und keine Steam-Version, und du brauchst nur ein kostenloses Roblox-Konto, um einem Server beizutreten."
+        },
+        {
+          "question": "Gibt es Codes für Build and Conquer?",
+          "answer": "Derzeit nicht. Die V0.1-Beta hat kein Einlösesystem, deshalb ist kein Promo-Code aktiv. Namen wie BETA RELEASE und SLOPCOMPANY tauchen in Listen Dritter auf, sind aber nicht offiziell. Patch-News erscheinen im offiziellen Discord und in der Roblox-Gruppe."
+        },
+        {
+          "question": "Wie erreiche ich Stadtstufe 2 in Build and Conquer?",
+          "answer": "Lass die Bevölkerung auf rund 250 Einwohner wachsen. Setze dichte Apartmenthäuser auf einen kompakten Versorgungsgrundriss, halte die Strom- und Wasserversorgung hoch und achte darauf, dass jedes Gebäude innerhalb von 4 Studs an einer Straße liegt."
+        },
+        {
+          "question": "Wie verdiene ich Geld in Build and Conquer?",
+          "answer": "Gewerbegebäude und bewohnte Häuser zahlen in jedem Lohnzyklus Geld. Balanciere Wohn- und Gewerbezonen aus, vermeide leere Büros, die trotzdem Unterhalt kosten, und lass Strom oder Wasser nie hinter das Wachstum zurückfallen."
+        },
+        {
+          "question": "Auf welchen Plattformen kann ich Build and Conquer spielen?",
+          "answer": "Auf jedem Gerät, das Roblox ausführt: PC über die Desktop-App oder den Browser, Android- und iOS-Handys und -Tablets über die Roblox-App sowie Xbox-Konsolen. Einen separaten Download gibt es nicht."
+        },
+        {
+          "question": "Brauche ich Militärforschung, um meine Build and Conquer-Stadt zu verteidigen?",
+          "answer": "Ja. Forschung schaltet Kaserne, Militärfabriken, Sloparms-Büros, SRBM- und MRBM-Werfer, Patriot-Batterien und Iron Dome frei, und der größte Teil des Baums ist hinter einer höheren Stadtstufe gesperrt."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Build and Conquer zu meistern?",
+      "description": "Vom ersten Grundstück bis zu Raketensilos und Drohnenkrieg deckt unser Community-Wiki alles mit kostenlosen, aktuellen Guides zu Build and Conquer auf Roblox ab.",
+      "primary": "Lies den Einsteigerguide",
+      "secondary": "Build and Conquer auf Roblox spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Build and Conquer Guides",
+    "overviewDescription": "Starte deine Nation richtig mit Einsteiger-Walkthroughs, Farmrouten für Geld und Ressourcen, Tipps zur Eisen- und Stahlproduktion und den Gewohnheiten, die eine junge Stadt wachsen lassen."
+  },
+  "progression": {
+    "overviewTitle": "Stadtfortschritt",
+    "overviewDescription": "Jede Stadtstufe vom ersten Grundstück bis zur vollen Metropole: was freigeschaltet wird, wie viel Bevölkerung und Strom du brauchst und die schnellste Reihenfolge für den Ausbau von Straßen, Wohnraum und Fabriken."
+  },
+  "mechanics": {
+    "overviewTitle": "Spielmechaniken",
+    "overviewDescription": "Wie Build and Conquer wirklich funktioniert: Ressourcen und Lagerung, Treibstoff und Strom, Forschung, Einheitenproduktion, Militärgebäude und die Zahlen hinter jedem System."
+  },
+  "combat": {
+    "overviewTitle": "Kampf & Kriegsführung",
+    "overviewDescription": "Plane Invasionen und verteidige deine Grenzen: Armeezusammenstellung, Kampftaktik, Raketen- und Drohnenangriffe und die Strategie, die entscheidet, wer den Boden behält."
+  },
+  "platforms": {
+    "overviewTitle": "Plattformen & Download",
+    "overviewDescription": "Wo du Build and Conquer spielen kannst: das Roblox-Spiel, Optionen für PC und Mobilgeräte, Download-Schritte und was dich auf jeder Plattform erwartet."
+  },
+  "codes": {
+    "overviewTitle": "Build and Conquer Codes",
+    "overviewDescription": "Die vollständige Liste aktiver Build and Conquer-Codes für kostenlose Ressourcen und Boosts, plus wie du sie einlöst und was du tust, wenn ein Code nicht mehr funktioniert."
+  },
+  "community": {
+    "overviewTitle": "Community & Medien",
+    "overviewDescription": "Offizielle Links, Discord- und Reddit-Anlaufstellen, Gameplay-Analysen und der Trailer sowie Walkthroughs und Bauordnungen anderer Spieler."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnRoblox": "Auf Roblox spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Build and Conquer Wiki",
+    "about": "Das Build and Conquer Wiki ist eine unabhängige, von Fans erstellte Guide-Plattform zu Stadtstufen, Ressourcen, Forschungsbäumen, Raketen, Drohnen und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Build and Conquer Wiki. Nicht mit The Slop Company oder Roblox verbunden.",
+    "description": "Stadtaufbau & moderne Kriegsführung auf Roblox. Baue eine Nation auf, erforsche Technik und erobere.",
+    "playGame": "Build and Conquer auf Roblox spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Offizielle Roblox-Gruppe",
+    "beginnerGuide": "Einsteigerguide",
+    "progressionGuides": "Fortschritt",
+    "combatGuides": "Kampf",
+    "codesGuides": "Codes",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
