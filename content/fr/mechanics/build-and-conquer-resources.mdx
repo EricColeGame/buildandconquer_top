@@ -1,0 +1,171 @@
+export const metadata = {
+  title: "Maîtriser les ressources de Build and Conquer : Guide complet de l'économie et de la production",
+  description: "Apprenez à gérer efficacement les ressources de Build and Conquer. Maîtrisez les réseaux électriques, la distribution d'eau, les matières premières industrielles et la logistique militaire.",
+  category: "mechanics",
+  date: "2026-10-16",
+};
+
+Gérer efficacement vos **ressources dans Build and Conquer** fait toute la différence entre diriger une superpuissance florissante et voir sa trésorerie sombrer dans une faillite soudaine. Dans ce jeu de construction de ville militaire moderne développé par The Slop Company, chaque route, centrale électrique et batterie de missiles dépend d'une chaîne logistique interconnectée. Que vous installiez votre premier château d'eau ou que vous ravitailliez des batteries de missiles à longue portée, comprendre l'interconnexion des **ressources de Build and Conquer** permet à votre nation de rester solvable, pleinement alimentée et protégée des voisins hostiles.
+
+Le jeu étant actuellement en phase de bêta active (V0.1), l'équilibrage évolue au fil des patchs. La clé du succès réside dans la maîtrise des réseaux d'approvisionnement de base avant de se précipiter vers la construction d'équipements militaires coûteux.
+
+---
+
+## L'économie fondamentale : Comment les ressources de Build and Conquer soutiennent l'expansion
+
+L'économie du jeu repose sur des cycles de production en boucle fermée. Contrairement aux jeux de type bac à sable traditionnels où l'argent s'accumule sans fin, la trésorerie de votre ville dépend directement de l'équilibre entre croissance résidentielle, bénéfices commerciaux et coûts des services publics. Chaque bâtiment construit engendre des frais d'entretien à chaque cycle de paie, ainsi que des besoins constants en électricité et en eau.
+
+Les retours de la communauté montrent que les nouveaux maires font fréquemment faillite au cours de leurs trente premières minutes. Cet effondrement survient généralement lorsque les joueurs construisent de lourdes infrastructures défensives ou des complexes de bureaux avancés avant même que leur économie civile de base ne puisse les soutenir. 
+
+```
+[Eau + Énergie] ➔ [Logements / Population] ➔ [Main-d'œuvre] ➔ [Production commerciale & industrielle] ➔ [Impôts & Acier] ➔ [Défense militaire]
+```
+
+Pour progresser sereinement dans les niveaux de ville (City Levels), vous devez maîtriser votre bilan financier. Des fonds sont générés à chaque cycle de paie par les commerces et les résidences occupées, tandis que la maintenance et les chaînes d'approvisionnement prélèvent de l'argent. Si votre revenu net devient négatif, vos chantiers s'interrompent, vos usines tournent au ralenti et votre réseau municipal s'effondre.
+
+---
+
+## Les services publics essentiels : Gérer les infrastructures d'énergie et d'eau
+
+Avant d'extraire des minerais ou de fabriquer des munitions sophistiquées, vous devez sécuriser les artères vitales de votre municipalité : l'électricité et l'eau potable. Sans électricité, les zones commerciales ne peuvent fonctionner. Sans eau, les résidences perdent leurs habitants, anéantissant à la fois votre assiette fiscale et votre main-d'œuvre.
+
+### Systèmes de production d'énergie
+
+La distribution d'électricité reste locale à moins d'être relayée. Les centrales possèdent un rayon d'action limité, ce qui nécessite l'installation de sous-stations pour acheminer le courant plus profondément dans vos parcelles. En début de partie, l'énergie verte élimine les contraintes logistiques liées au carburant, mais les gratte-ciel à haute densité et les systèmes défensifs requièrent une alimentation colossale.
+
+*Les données du wiki communautaire mettent en lumière les profils de rendement suivants pour les générateurs d'énergie du début à la fin de partie :*
+
+| Bâtiment énergétique | Coût de construction | Temps de construction | Production d'énergie | Entretien / Carburant requis | Déblocage (Niveau) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Panneau solaire** | $100 | 12s | 20 Énergie | Aucun (Zéro carburant & entretien) | Niveau 1 |
+| **Éolienne** | $500 | 24s | 200 Énergie | -2 $ / Cycle de paie | Niveau 1 |
+| **Sous-station** | $700 | 16s | Relais électrique | -2 $ / Cycle de paie (Requiert la portée d'une centrale) | Niveau 1 |
+| **Centrale à charbon** | $5,000 | 32s | 6 000 Énergie | -18 $ / Cycle de paie + Consomme du charbon | Niveau 2 |
+| **Centrale nucléaire** | $50,000 | 80s | 60 000 Énergie | -120 $ / Cycle de paie, 500 Acier, -1 Uranium/min | Niveau 4 |
+
+L'expansion initiale tire un grand bénéfice des éoliennes. Bien que les panneaux solaires ne demandent aucun entretien, leur faible rendement occupe un espace précieux au sol. Dès votre transition vers les centrales à charbon au Niveau 2, établissez des lignes d'approvisionnement régulières en minerais bruts pour éviter des pannes générales catastrophiques.
+
+### Réseaux de distribution d'eau
+
+L'approvisionnement en eau constitue un facteur limitant absolu pour la capacité de votre population. Si une maison manque d'eau courante, les citoyens s'en vont, provoquant des pénuries de main-d'œuvre dans les commerces et les raffineries environnants.
+
+| Structure hydrique | Coût de construction | Couverture / Capacité | Coûts d'entretien | Exigences clés |
+| :--- | :--- | :--- | :--- | :--- |
+| **Château d'eau** | $12 | 200 Citoyens (zone 500x500) | -2 $ / Cycle de paie | Emplacement local |
+| **Usine de dessalement** | $5,000 | Couverture illimitée à l'échelle de la ville | -25 $ / Cycle de paie | 200 Énergie (+1 000 Énergie échelonnée par citoyen) |
+
+L'expérience des joueurs recommande de placer des châteaux d'eau locaux lors des premières étapes de développement. L'usine de dessalement assure un raccordement illimité pour toute la ville, mais son augmentation exponentielle de consommation énergétique peut rapidement submerger votre réseau électrique initial si votre population croît plus vite que vos centrales.
+
+---
+
+## Chaînes d'approvisionnement industrielles : Matières premières, carburant et production d'acier
+
+L'extraction et la transformation des minerais bruts forment l'ossature de la puissance nationale en milieu de partie. Les chantiers avancés et les programmes balistiques ne peuvent se contenter de simples liquidités ; ils exigent des matières premières manufacturées dans vos secteurs industriels.
+
+La bonne gestion des **ressources de Build and Conquer** en aval, telles que l'acier et le carburant raffiné, permet à votre ville de passer d'un simple réseau municipal sans défense à une place forte redoutable.
+
+```
+Mines (Charbon & Fer) ───────► Usines industrielles ────► Acier de construction & Biens de consommation
+Pompes à pétrole (Brut) ─────► Raffineries ─────────────► Carburant raffiné & Munitions
+```
+
+### Matières premières et denrées raffinées clés
+
+*   **Charbon :** Extrait des gisements naturels ; sert de combustible pour les centrales thermiques standard et les processus industriels.
+*   **Minerai de fer :** Extrait dans les mines collectives ; alimente directement les fonderies pour fabriquer les métaux de construction finis.
+*   **Pétrole brut :** Pompé des réserves souterraines ; acheminé vers les secteurs industriels pour y être converti en carburant.
+*   **Carburant raffiné :** Produit dans les petites et moyennes raffineries ; indispensable aux manœuvres de véhicules, à la logistique et aux transports lourds.
+*   **Acier :** Alliage de construction avancé indispensable aux tours de bureaux de niveau intermédiaire et supérieur, aux infrastructures municipales et aux batteries de défense.
+*   **Uranium :** Matière fissile de haut niveau consommée par minute pour alimenter les centrales nucléaires.
+
+Pour découvrir les derniers ajustements d'équilibrage ou participer à la branche de test communautaire, visitez la [page officielle de Build and Conquer sur Roblox](https://www.roblox.com/games/103767961452227/Build-and-Conquer). Suivre attentivement les mises à jour vous permettra d'anticiper les variations de coûts logistiques avant de réaménager votre base.
+
+---
+
+## Équilibrer la main-d'œuvre : Densité résidentielle contre rentabilité commerciale
+
+Chaque propriété commerciale nécessite deux prérequis : un raccordement aux services publics et des travailleurs disponibles. La main-d'œuvre provient exclusivement de vos quartiers d'habitation. Trouver le juste équilibre entre expansion résidentielle et emplois commerciaux stabilise vos bénéfices à chaque cycle de paie.
+
+Les retours d'expérience indiquent qu'implanter prématurément trop de bureaux à haute densité engendre des pénuries de travailleurs. Lorsqu'un bureau manque de personnel, il ne génère aucune recette fiscale tout en continuant de déduire ses frais de maintenance fixes à chaque cycle.
+
+### Catégories de logements résidentiels
+
+*Les statistiques partagées par la communauté indiquent les rendements suivants pour les logements habituels :*
+
+| Type de résidence | Coût | Temps de construction | Population fournie | Revenu net par cycle | Exigences de base |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Maison modeste** | $50 | 16s | +3 Pop | +4 $ | 5 Énergie, Eau |
+| **Maison standard** | $136 | 16s | +5 Pop | +10 $ | 5 Énergie, Eau |
+| **Maison à deux étages** | $170 | 16s | +8 Pop | +9 $ | 5 Énergie, Eau |
+| **Immeuble à loyer modéré** | $336 | 16s | +14 Pop | 0 $ (Main-d'œuvre uniquement) | 5 Énergie, Eau |
+| **Immeuble classe moyenne** | $730 | 16s | +10 Pop | +26 $ | 5 Énergie, Eau |
+| **Appartement urbain** | $2,200 | 32s | +20 Pop | +80 $ (-12 $ d'entretien) | 15 Énergie, Eau, 22 Acier |
+| **Immeuble intermédiaire 1** | $3,672 | 40s | +32 Pop | +120 $ (-17 $ d'entretien) | 18 Énergie, Eau, 36 Acier |
+
+Les habitations d'entrée de gamme génèrent des revenus réguliers en début de partie sans exiger d'acier. Dès la mise en service des aciéries, la transition vers les appartements urbains maximise la densité par parcelle tout en préservant le bonheur des résidents.
+
+### Centres commerciaux et développement des bureaux
+
+Les locaux commerciaux transforment votre main-d'œuvre civile inactive en sources de revenus substantielles. Les commerces de détail, comme les stations-service et les supérettes, apportent un flux de trésorerie initial modeste, tandis que les gratte-ciel de bureaux d'entreprise injectent des sommes massives à chaque cycle de paie, au prix d'une forte demande en travailleurs.
+
+| Installation commerciale | Coût | Travailleurs requis | Revenu par cycle | Coût d'entretien | Besoins matériels |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Boutique** | $400 | 2 Travailleurs | +65 $ | -3 $ | Aucun |
+| **Petite station-service** | $550 | 2 Travailleurs | +80 $ | -4 $ | Aucun |
+| **Centre commercial à ciel ouvert** | $1,600 | 6 Travailleurs | +200 $ | -8 $ | Aucun |
+| **Grand supermarché** | $2,400 | 8 Travailleurs | +260 $ | -10 $ | 24 Acier |
+| **Banque de proximité** | $4,600 | 8 Travailleurs | +300 $ | -30 $ | Aucun |
+| **Bureaux bas** | $7,000 | 30 Travailleurs | +420 $ | -45 $ | 70 Acier |
+| **Bureaux de taille moyenne 1** | $14,000 | 50 Travailleurs | +700 $ | -85 $ | 140 Acier |
+| **Gratte-ciel de bureaux 1** | $24,000 | 80 Travailleurs | +1 100 $ | -140 $ | 240 Acier |
+
+Lors du développement des bureaux, ne construisez jamais au-delà de votre réserve de main-d'œuvre disponible. Bâtissez d'abord des appartements, assurez-vous des réserves de services publics, et n'implantez de grands bureaux que lorsqu'un excédent de travailleurs inactifs apparaît dans l'aperçu de votre ville.
+
+---
+
+## Défense et guerre : Convertir la richesse intérieure en puissance de feu
+
+Une économie prospère attire rapidement l'attention des joueurs voisins. Les tunnels mènent directement au continent disputé, ce qui signifie que vos infrastructures nationales restent vulnérables aux tirs de barrage balistiques, aux essaims de drones et aux raids mécanisés. 
+
+Amasser des **ressources de Build and Conquer** stratégiques vous permet de dresser des périmètres de défense antiaérienne et de fabriquer un arsenal de riposte. 
+
+```
+Économie intérieure ($) ──► Recherche militaire ──► Munitions & Lanceurs de missiles ──► Domination du continent
+```
+
+### Infrastructures militaires et installations de production
+
+*   **Caserne (Barracks) :** Recrute des troupes terrestres pour les escarmouches régionales et les opérations dans les tunnels.
+*   **Usines militaires & Stockage de véhicules (Military Factories & Vehicle Storage) :** Transforment l'acier raffiné et le carburant national en véhicules de transport de combat, blindés utilitaires et camions logistiques.
+*   **Bureaux Sloparms (Small / Medium / Large) :** Centres de recherche administrative qui débloquent des doctrines militaires avancées, du matériel de guidage et des systèmes de défense.
+*   **Batteries de défense antiaérienne (Iron Dome, Patriot Battery, Patriot PAC-3) :** Systèmes sol-air automatisés conçus pour intercepter les roquettes tactiques, les projectiles hypersoniques et les drones d'attaque Shahed en approche.
+*   **Sites de guerre balistique (Lanceurs SRBM & MRBM) :** Armes stratégiques à fort rendement capables de cibler les pôles industriels adverses, les usines de dessalement et les batteries défensives sur toute la carte.
+
+Les systèmes de défense antiaérienne génèrent des coûts opérationnels considérables. Si une attaque surprise coupe votre réseau électrique, vos batteries Iron Dome s'éteindront instantanément, laissant le reste de votre métropole sans protection. Regroupez des générateurs éoliens de secours et des sous-stations à proximité des installations militaires stratégiques pour maintenir les radars de défense opérationnels en cas de panne de courant.
+
+---
+
+## 4 règles essentielles pour la gestion des ressources
+
+1.  **Ne dépassez jamais votre surplus électrique :** Conservez une réserve d'énergie de 15 à 20 %. L'ajout de nouvelles usines ou d'installations de dessalement sans vérifier la marge disponible sur le réseau entraîne des baisses de tension en chaîne à travers toute la ville.
+2.  **Séparez la pollution industrielle des zones résidentielles :** L'implantation de mines et d'usines lourdes à proximité immédiate des quartiers d'habitation entraîne des pénalités de bonheur réduisant l'ensemble de vos recettes fiscales.
+3.  **Constituez des réserves financières de secours :** Ne videz pas intégralement vos caisses pour acheter des armes offensives. Gardez au moins l'équivalent de cinq cycles de paie en réserve pour absorber les réparations imprévues à la suite d'un raid aérien.
+4.  **Acheminez les services publics avant de monter en gamme :** Posez toujours les routes, les sous-stations et les réseaux d'eau avant de déployer des plans de bureaux onéreux.
+
+En maintenant des lignes d'approvisionnement rigoureuses, en équilibrant l'habitat civil face à la demande commerciale et en protégeant l'industrie lourde par des réseaux multicouches de défense antiaérienne, votre ville prospérera à travers chaque mise à jour et chaque conflit.
+
+---
+
+## Foire aux questions (FAQ)
+
+### Que dois-je faire si mes fonds diminuent rapidement jusqu'à devenir négatifs ?
+Une hémorragie financière survient lorsque les coûts d'entretien dépassent les revenus commerciaux, souvent parce que des bâtiments manquent d'électricité ou de travailleurs. Mettez immédiatement en pause vos chantiers militaires. Inspectez vos bâtiments commerciaux : si un bureau affiche une alerte « travailleurs insuffisants » ou « non alimenté », il consomme des frais d'entretien sans générer le moindre bénéfice. Démolissez les édifices coûteux superflus ou construisez rapidement des logements standard raccordés au réseau d'eau pour fournir la main-d'œuvre indispensable.
+
+### Comment débloquer les bâtiments de Niveau 2 et de Niveau 3 dans Build and Conquer ?
+Pour franchir les niveaux de ville, vous devez atteindre des seuils de population, conserver un bilan positif à chaque cycle de paie et mettre en place des services municipaux comme les forces de l'ordre. D'après les retours de la communauté, atteindre le Niveau 2 exige une population civile stable et des structures de sécurité comme le bureau du shérif (Sheriff's Office, 500 $), couplées à une fourniture ininterrompue en eau et en électricité sur toutes les zones habitées.
+
+### Où trouver de l'acier pour construire des tours de bureaux avancées et du matériel militaire ?
+L'acier est un matériau intermédiaire raffiné fabriqué par les usines industrielles. Vous devez extraire du fer et du charbon à l'aide de mines, puis acheminer ces matières premières vers des usines opérationnelles. Une fois transformé, l'acier est automatiquement ajouté à votre inventaire de construction pour bâtir des tours commerciales avancées, des enceintes municipales et des pas de tir de missiles.
+
+### Quelles sont les ressources les plus cruciales de Build and Conquer pour se défendre contre les frappes de missiles ?
+La défense antimissile initiale repose sur l'énergie, les liquidités et les technologies militaires débloquées. Maintenir des générateurs d'électricité redondants empêche les batteries antiaériennes de s'éteindre lors des bombardements. Une fois débloquées via l'arbre technologique Sloparms, les installations Iron Dome ou Patriot PAC-3 forment un dôme d'interception, à condition que votre ville génère des revenus réguliers suffisants pour couvrir leurs coûts d'entretien récurrents.

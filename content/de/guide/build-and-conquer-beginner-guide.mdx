@@ -1,0 +1,182 @@
+export const metadata = {
+  title: "Build and Conquer Anfänger-Guide: Stadtlayout, Einnahmen und Verteidigung",
+  description: "Meistere dein erstes Grundstück in Roblox Build and Conquer mit diesem umfassenden Anfänger-Guide zu Straßen, Stromnetzen, Wirtschaftszyklen und Forschung.",
+  category: "guide",
+  date: "2026-10-16",
+};
+
+Das Betreten eines leeren Grundstücks im beliebten Roblox-Strategiespiel von The Slop Company kann entmutigend wirken, wenn sich die Staatskasse leert, noch bevor deine erste Fabrik überhaupt in Betrieb geht. Ein zuverlässiger **Build and Conquer Anfänger-Guide** stellt sicher, dass deine junge Nation eine widerstandsfähige Wirtschaft aufbaut, bevor ausländische Mächte beginnen, militärische Streitkräfte zu versammeln. In diesem ausführlichen **Build and Conquer Anfänger-Guide** erfährst du, wie du dein Startkapital klug einsetzt, funktionierende Versorgungsleitungen verlegst, die Arbeiterbevölkerung ausbalancierst und reibungslos in die industrielle Waffenproduktion übergehst.
+
+Da sich der Titel derzeit in der aktiven Beta (V0.1) befindet, erhalten Kernmechaniken, Balance-Werte und Baumenüs regelmäßige Updates. Wenn du anpassungsfähig bleibst und gleichzeitig die grundlegenden Städtebau-Regeln meisterst, wird dein Territorium nach jedem Server-Neustart weiter florieren.
+
+---
+
+## Gründung deiner Nation: Erste Schritte und Startbudget
+
+Jedes Match beginnt mit der Auswahl eines Grundstücks und dem Öffnen des Fensters zur Staatsgründung. Dir wird eine leere Parzelle zugewiesen, die durch einen markanten cyanfarbenen Umriss auf einer Karte mit 8 Grundstücken gekennzeichnet ist, zusammen mit einem Startbudget von 2.500 $.
+
+Nachdem du deinen Ländernamen eingegeben und eine Flagge im Einrichtungsmenü ausgewählt hast, widerstehe dem Drang, sofort teure Gebäude zu platzieren. Die ersten Minuten erfordern wohlüberlegtes Wirtschaften. Zwei unverzichtbare Versorgungsgebäude – deine erste Windkraftanlage und dein erster Wasserturm – stehen kostenlos (0 $ Kosten) zur Verfügung. Zudem erhältst du eine kostenlose Starter-Kaserne und ein Forschungsbüro. Wenn du diese speziellen Strukturen frühzeitig platzierst, verhinderst du spätere Baubeschränkungen, ohne deine Startreserve anzugreifen.
+
+Um das Erlebnis direkt auf PC, Konsole oder Mobilgeräten zu starten, tritt über die [offizielle Build and Conquer Roblox-Spiele-Seite](https://www.roblox.com/games/103767961452227/Build-and-Conquer) bei. Beachte, dass es derzeit keine funktionierenden Einlösecodes für dieses Spiel gibt; Websites von Drittanbietern, die Promo-Code-Listen anbieten, beziehen ihre Informationen aus anderen Spielen.
+
+---
+
+## Straßenraster und Versorgungsnetze: Die 4-Stud-Regel
+
+Der mit Abstand häufigste Fehler neuer Bürgermeister besteht darin, Gebäude zu weit entfernt von der Infrastruktur zu platzieren. In diesem **Build and Conquer Anfänger-Guide** lautet unsere wichtigste Faustregel die **4-Stud-Regel**: Jedes funktionale Wohnhaus, jedes Geschäft und jede Versorgungsanlage muss sich innerhalb von 4 Studs an einer aktiven Straße befinden.
+
+```
+[ Zweispurige Straße ] <--- innerhalb von 4 Studs ---> [ Wohnhaus / Geschäft / Anlage ]
+```
+
+Achte beim Platzieren eines Gebäudes auf die Vorschau-Silhouette:
+- **Grüner Umriss:** Das Gebäude verfügt über eine ordnungsgemäße Straßenanbindung, gültige Geländebeschaffenheit und Versorgungsverbindung.
+- **Roter Umriss:** Dem Gebäude fehlt der Straßenzugang, es überschreitet die Reichweite des Netzwerks oder kollidiert mit der Grundfläche eines anderen Bauwerks.
+
+### Straßenstrategie: Feldwege vs. asphaltierte Straßen
+
+Standardmäßige zweispurige Straßen kosten 10 $ pro Einheit, während einfache Feldwege völlig kostenlos (0 $) sind. Wenn du große Stadtblöcke planst, ziehe die äußeren Grenzen und Rasterlayouts zunächst mit Feldwegen. Sobald sich deine Wirtschaft stabilisiert hat, kannst du stark frequentierte Korridore durch asphaltierte Straßen ersetzen.
+
+| Straßentyp | Baukosten | Hauptfunktion | Bester Einsatzzweck |
+| :--- | :--- | :--- | :--- |
+| **Feldweg (Dirt Road)** | 0 $ | Kostengünstige Layout-Zonierung | Rasterskizzen, Farmzugänge, Umgehungsstraßen |
+| **Zweispurige Straße (Two-Lane Road)** | 10 $ pro Einheit | Standardmäßiger Stadtverkehr | Hauptverkehrsachsen, Geschäftsstraßen, Fabrikanbindungen |
+
+### Trennung von Strom- und Wassernetzen
+
+Strom und Wasser folgen nicht derselben Übertragungslogik. Energie aus Windkraftanlagen, Solarpaneelen und Kohlekraftwerken fließt über direkte Verbindungen, Strom kann jedoch nicht über Wasseranlagen hinweg übertragen werden. Ebenso benötigen Wasserleitungen und Tanks lückenlose Trassen. Halte Versorgungsknotenpunkte übersichtlich organisiert, damit Stromleitungen nicht hinter deinen Wassertürmen ins Stocken geraten.
+
+| Versorgungsgebäude | Basiskosten (Community-Daten) | Bereitgestellte Ressource | Eingang / Wartung | Straße erforderlich? |
+| :--- | :--- | :--- | :--- | :--- |
+| **Windkraftanlage (Erste)** | 0 $ (Kostenloser Starter) | Energie | Keine | Ja |
+| **Solarpanel** | 100 $ | +10 Energie | Keine | Nein |
+| **Kohlekraftwerk** | Spielerberichte variieren | Hohe Energieausbeute | Benötigt Kohle-Ressource | Ja |
+| **Wassertank / Wasserturm** | 0 $ (Kostenloser Starter) | Frischwasser | Direkte Leitungsreichweite | Ja |
+| **Entsalzungsfabrik** | Fortgeschrittene Stufe | Großes Wasservolumen | Hoher Energieverbrauch | Ja |
+
+*Hinweis: Die oben aufgeführten Kosten und Ertragszahlen basieren auf Community-Wiki-Daten und Erfahrungsberichten von Spielern aus der Beta V0.1.*
+
+---
+
+## Frühzeitigen Cashflow aufbauen: Wohnraum, Geschäfte und Instandhaltung
+
+Geld fließt in *Build and Conquer* nicht kontinuierlich, sondern wird alle **30 Sekunden** als Pauschalbetrag ausgezahlt. Wenn der 30-Sekunden-Zyklus erreicht ist, erfasst der Server deine Bruttoeinnahmen (Handelsverkäufe, Arbeiterproduktivität, Wohnsteuern) und zieht die laufenden Betriebskosten ab (Instandhaltung von Einrichtungen, Stromnetzkosten, militärischer Unterhalt).
+
+Übersteigen deine Ausgaben die Erträge, gerät dein Kontostand schnell ins Minus. Der frühzeitige Aufbau einer soliden finanziellen Basis ist das Fundament jedes hilfreichen **Build and Conquer Anfänger-Guides**.
+
+### Balance zwischen Wohn- und Gewerbegebieten
+
+Gewerbegebäude generieren den Großteil deiner steuerbaren Einnahmen, können ihre Türen jedoch nicht ohne Personal öffnen. Um ein Geschäft mit Arbeitskräften zu besetzen, musst du Wohnraum innerhalb deines Versorgungsgebiets bereitstellen.
+
+Darüber hinaus gehören die Bürger verschiedenen Einkommensschichten an. Bürger mit geringem Einkommen arbeiten in einfacheren Berufen und kaufen in kleineren Geschäften ein. Bürger der Mittelschicht verlangen nach besseren Wohnungen und besuchen gehobenere Läden.
+
+```
+[ Wohngebiet ] ---> Bringt Arbeiter hervor ---> [ Gewerbegeschäfte ] ---> Generiert Einnahmen (Alle 30 Sek.)
+```
+
+| Starter-Gebäude | Grundpreis | Community-Ertragsdaten | Ressourcenbedarf |
+| :--- | :--- | :--- | :--- |
+| **Wohnhaus 1 (Residential House 1)** | 100 $ | +3 Bürger, +20 $ pro Zyklus | 1 Energie, 1 Wasser |
+| **Mittelklasse-Apartment (Middle Class Apartment)** | 450 $ | +18 Bürger, +130 $ pro Zyklus | 5 Energie, 4 Wasser |
+| **Geschäft (Commercial Shop)** | Starter-Stufe | Generiert frühe Einnahmen | 2 Arbeiter, Straßenanbindung |
+| **Farmfeld (Farm Field)** | 100 $ | +1 Nahrung pro Zyklus | 1 Arbeiter, muss Farm/Weizen berühren |
+
+### Umgang mit Platzierungs-Debuffs im Gewerbebereich
+
+Achte bei der Planung deiner ersten Geschäftsmeile auf die Gebäudeauren. Laut Berichten von Spielern kann das Platzieren eines Einzelhandelsgeschäfts direkt neben einem Einfamilienhaus die Zufriedenheit der Bewohner senken.
+- **Innerhalb von 20 Studs:** -2 Zufriedenheits-Malus für umliegende Häuser.
+- **Zwischen 21 und 40 Studs:** +2 Gewerbezugangs-Bonus für Häuser.
+
+Platziere deine Wohnhäuser entlang einer parallelen Nebenstraße in etwa 25 bis 35 Studs Entfernung zu deiner geschäftigen Hauptstraße. So bleiben die Wohngebäude im positiven Aurabereich, ohne unter Lärmbelästigung zu leiden. Sobald dein erstes einfaches Geschäft gebaut ist, wähle es aus und kaufe das Upgrade auf Stufe 2 für 200 $, um die Einnahmen deutlich zu steigern, ohne zusätzliche Baufläche zu verbrauchen.
+
+---
+
+## 15 Arbeiter erreichen und Militärforschung freischalten
+
+Deine zivile Stadt dient letztlich einem Zweck: der Finanzierung und Entwicklung deiner Verteidigungskräfte. Moderne Militärgüter lassen sich nicht einfach von der Stange kaufen; jede einzelne Waffenplattform, jede Raketenbatterie und jedes gepanzerte Fahrzeug muss vor Ort erforscht und produziert werden.
+
+Um diesen Prozess zu starten, musst du das **Kleine Forschungsbüro (Small Research Office)** (auf der Benutzeroberfläche mit SLOPARMS gekennzeichnet) errichten. Das Platzieren dieses Gebäudes erfordert jedoch **15 verfügbare Arbeiter**. Wenn alle deine Bürger derzeit in Lebensmittelgeschäften oder auf Farmen angestellt sind, zeigt das Bauwerkzeug eine Fehlermeldung an: *„Not enough available workers.“*
+
+### Schnelleres Bevölkerungswachstum erreichen
+
+Einfamilienhäuser bieten jeweils nur 3 Bürger. Der Bau von fünf einzelnen Starter-Häusern erfordert mehrere Straßenerweiterungen und verbraucht wertvollen Bauplatz. Spare stattdessen Geld für ein dichter besiedeltes Wohngebäude:
+
+1. Ziehe einen kurzen Straßenabzweig von deiner Hauptstraße.
+2. Vergewissere dich, dass deine anfängliche Windkraftanlage und dein Wassertank über freie Kapazitäten verfügen (mindestens 6 Energie und 5 Wasser).
+3. Platziere ein **Mittelklasse-Apartment (Middle Class Apartment)** (450 $ laut Community-Wiki), das dir +18 Einwohner auf einer einzigen Parzelle einbringt.
+4. Überprüfe in deiner Stadtverwaltungsübersicht, ob die Arbeitskräfte als arbeitslos registriert sind.
+5. Platziere das Kleine Forschungsbüro neben deiner asphaltierten Straße.
+
+| Früher Meilenstein | Anforderungen | Sofortige Freischaltungen | Empfohlene Maßnahme |
+| :--- | :--- | :--- | :--- |
+| **Stadtstufe 1** | Grundstück beansprucht, 1 Straße, Starter-Versorgung | Einfache Häuser, Feldwege, Geschäft | Positiven Cashflow sichern |
+| **Arbeitskräfte-Stufe 1** | 15 arbeitslose Arbeiter | Kleines Forschungsbüro | Geschäft auf Stufe 2 aufwerten |
+| **SLOPARMS Zweig 1** | Forschungsbüro, 1.000 $ Forschungsbudget | M16-Infanteriegewehr | Finanzierung sofort zuweisen |
+| **Nahrungsversorgung** | Farmfeld + Weizenfarm | Grundlegende Nahrungsmittelproduktion | Hungersnot der Bevölkerung verhindern |
+
+### Starten deines ersten Forschungsprojekts
+
+Sobald dein Kleines Forschungsbüro einsatzbereit ist, klicke auf das Gebäude, um den SLOPARMS-Technologiebaum aufzurufen. Es kann jeweils nur ein Forschungsprojekt gleichzeitig laufen, wofür fortlaufend finanzielle Mittel aufgewendet werden müssen.
+
+Wähle das **M16** unter Infanterie (Rang I) aus. Laut Erfahrungsberichten von Spielern dauert der Forschungsbalken etwa 5 Minuten und erfordert eine Investition von bis zu 1.000 $. Der Abschluss dieser Freischaltung ebnet den Weg für fortschrittlichere Bewaffnung wie die Minimi, den TRG-21 Interceptor und das Bloated M16.
+
+---
+
+## Expansion in Industrie, Rohstoffe und Gebietsverteidigung
+
+Sobald deine Stadt alle 30 Sekunden verlässliche Nettoeinnahmen erwirtschaftet, solltest du den Schwerpunkt auf Primärförderung und industrielle Raffination verlagern. Fortgeschrittene Einheiten erfordern materielle Ressourcen anstelle von reinem Geld.
+
+### Die industrielle Produktionskette
+
+Der Industriekreislauf in *Build and Conquer* verwandelt rohe Bodenschätze in raffinierte Treibstoffe und fertige Konsumgüter.
+
+```
+[ Ölpumpe / Mine ] ---> Rohöl & Erz ---> [ Raffinerie / Fabrik ] ---> Treibstoff & Militärteile
+```
+
+- **Minen:** Werden auf natürlichen Vorkommen platziert, um Kohle und Eisen abzubauen.
+- **Ölpumpen:** Fördern Rohöl zur Weiterverarbeitung.
+- **Raffinerien (Klein & Mittel):** Verwandeln Rohöl in nutzbaren Fahrzeugtreibstoff.
+- **Fabriken:** Kombinieren Eisen und Zwischenprodukte zu Konsumgütern und militärischen Rüstungsgütern.
+
+### Defensive Infrastruktur
+
+Mit wachsendem Wohlstand deiner Stadt geraten deine Anlagen ins Visier anderer Spieler. Wenn du deine Grenzen ungeschützt lässt, lädst du zu verheerenden Drohnen- und Raketenangriffen ein.
+
+| Militärisches Objekt | Kategorie | Community-Hinweise | Taktische Rolle |
+| :--- | :--- | :--- | :--- |
+| **Kaserne** | Personal | Bildet Gewehrrekruten aus | Basisverteidigung und Patrouille |
+| **Shahed-Drohne** | Drohnenkrieg | Kostengünstige gelenkte Nutzlast | Störangriffe auf große Distanz |
+| **SRBM- / MRBM-Abschussrampen** | Ballistische Raketen | Hoher Schaden an gegnerischen Strukturen | Vergeltungsschläge |
+| **Patriot PAC-3 / Iron Dome** | Flugabwehr | Fängt anfliegende Raketen und Flugzeuge ab | Schutz des Basiskerns |
+| **Militärfahrzeuglager** | Gepanzerte Fahrzeuge | Beherbergt Bodenkampffahrzeuge | Gegenoffensiven |
+
+Priorisiere den frühzeitigen Aufbau eines Flugabwehrschirms – wie einer Iron-Dome- oder Patriot-Anlage – in der Nähe deiner zentralen Kraftwerke und Forschungsbüros. Ein Ausfall deines Hauptstromnetzes legt alle Wasserpumpen lahm, was deine Stadteinnahmen augenblicklich zum Erliegen bringt.
+
+---
+
+## Häufige Fehler, die du in der Beta V0.1 vermeiden solltest
+
+Selbst erfahrene Städtebau-Veteranen stolpern über spezifische Mechaniken in *Build and Conquer*. Die Anwendung der in diesem **Build and Conquer Anfänger-Guide** dokumentierten Lektionen bewahrt dein Budget vor dem vorzeitigen Ruin.
+
+- **Zu viele Wohngebiete ohne Arbeitsplätze ausweisen:** Das endlose Aneinanderreihen von Wohnblocks ohne Geschäfte oder Fabriken erzeugt arbeitslose Bürger, die Nahrung und Wasser verbrauchen, aber kaum Steuereinnahmen einbringen.
+- **Militärische Expansion vor wirtschaftlicher Stabilität:** Kasernen und Raketenstartplätze verursachen erhebliche laufende Wartungskosten. Eine Armee aufzubauen, bevor du mindestens +300 $ Reingewinn pro Zyklus erwirtschaftest, treibt dich in die Pleite.
+- **Versorgungsengpässe ignorieren:** Vergewissere dich stets, dass du über einen Überschuss von 10–15 Einheiten an Energie und Wasser verfügst, bevor du neue Apartmentkomplexe oder Forschungsbüros baust.
+- **Vernachlässigung des 4-Stud-Limits:** Wenn ein neu platziertes Gebäude eine orangefarbene oder rote Warnung anzeigt, prüfe, ob der Eingang von der Straße weggedreht ist. Der Eingang muss innerhalb von 4 Studs zur Straße hin ausgerichtet sein.
+- **Suche nach geheimen Promo-Codes:** Wie die Entwickler von The Slop Company bestätigt haben, gibt es in der Version V0.1 keine offiziellen aktiven Promo-Codes für *Build and Conquer*. Meide verdächtige Websites, die kostenloses In-Game-Geld oder Robux-Codes versprechen.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Warum zeigt mein Gebäude beim Platzieren einen roten Umriss?
+Ein roter Umriss deutet auf eine ungültige Platzierung hin. Die häufigste Ursache ist das Überschreiten der maximalen Distanz von 4 Studs zu einer aktiven Straße. Weitere häufige Gründe sind unzureichende Stromversorgung, fehlende Wasserleitungsreichweite, Geländehindernisse oder ein Mangel an freien Arbeitskräften in deiner Stadtübersicht.
+
+### Wie oft erhalte ich Einnahmen in Build and Conquer?
+Das Nettoeinkommen wird einmal alle 30 Sekunden ausgezahlt. Deine Gesamteinnahmen entsprechen den addierten Wohnsteuern und Gewerbeeinnahmen abzüglich städtischer Instandhaltungskosten, Kraftwerkskosten und der laufenden Militärwartung.
+
+### Was ist der schnellste Weg, um 15 Arbeiter für das Kleine Forschungsbüro zu bekommen?
+Anstatt fünf einzelne Starter-Häuser zu bauen, spare dein Geld und errichte ein einzelnes **Mittelklasse-Apartment (Middle Class Apartment)** (laut Community-Berichten belaufen sich die Kosten auf etwa 450 $). Dies bringt dir +18 Bürger auf einer einzigen Baufläche und erfüllt problemlos die Voraussetzung von 15 Arbeitern für das SLOPARMS-Forschungsbüro.
+
+### Gibt es funktionierende Codes für Build and Conquer?
+Nein. Das Entwicklerteam, The Slop Company, hat bisher keine Einlösecodes für das Spiel veröffentlicht. Alle im Internet beworbenen Codes stammen von anderen Spielen. Tritt dem offiziellen Community-Discord bei oder wirf einen Blick auf die Roblox-Update-Seite des Spiels, um direkt von den Entwicklern zu erfahren, sobald neue Features oder Aktionen veröffentlicht werden.

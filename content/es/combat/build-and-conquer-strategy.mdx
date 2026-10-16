@@ -1,0 +1,151 @@
+export const metadata = {
+  title: "Guía de estrategia de Build and Conquer: Economía, guerra y diseño urbano",
+  description: "Domina el éxito de Roblox Build and Conquer con esta guía completa de estrategia que cubre planificación urbana, cadenas de suministro industrial, investigación y defensa.",
+  category: "combat",
+  date: "2026-10-16",
+}
+
+Comenzar una nueva nación en una parcela abierta puede volverse abrumador con rapidez cuando los jugadores rivales empiezan a lanzar ataques balísticos por todo el servidor. Una **estrategia de Build and Conquer** sólida es fundamental si deseas escalar tu economía y proteger tus fronteras. Sin una zonificación equilibrada y una red logística funcional, incluso la base más rica colapsará antes de reunir un ejército permanente. En este desglose táctico, detallamos cada nivel de una **estrategia de Build and Conquer** eficaz para transformar parcelas iniciales básicas en fortalezas industriales de alta tecnología.
+
+Dado que el juego se encuentra en desarrollo activo en fase Beta (V0.1) por parte de The Slop Company, los ajustes de equilibrio y las mecánicas evolucionan a gran velocidad. Los jugadores acceden al título directamente a través de la [página oficial del juego Build and Conquer en Roblox](https://www.roblox.com/games/103767961452227/Build-and-Conquer), donde cada vehículo militar, silo de misiles y distrito comercial debe construirse desde cero en la parcela de tierra asignada.
+
+---
+
+## Estableciendo el núcleo urbano: Agua, energía y mano de obra
+
+Desarrollar una **estrategia de Build and Conquer** confiable comienza con los fundamentos cívicos. Tu ciudad es tu único motor para la generación de capital. En *Build and Conquer*, no puedes adquirir activos militares directamente sin ingresos fiscales, y los impuestos no se pueden recaudar sin establecimientos comerciales atendidos por ciudadanos trabajadores. 
+
+Cada unidad residencial requiere dos suministros continuos para funcionar: energía eléctrica y agua potable. Si cualquiera de estos servicios entra en déficit, la producción residencial se detiene. Las casas sin servicios no podrán abastecer la reserva laboral necesaria para atender los comercios minoristas, lo que provocará cajas registradoras vacías y un progreso paralizado.
+
+```
+[Centrales eléctricas / Fuentes de agua] 
+             │
+             ▼
+    [Zonas residenciales] ──(Genera mano de obra)──► [Negocios comerciales] ──► [Ingresos fiscales]
+```
+
+Los trazados iniciales del asentamiento deben priorizar cuadrículas compactas. Mantén los edificios de servicios básicos cerca de tu perímetro para maximizar el espacio contiguo disponible para viviendas de alta densidad y lotes comerciales más adelante. 
+
+### Clasificaciones básicas de edificios municipales
+
+Los datos de la wiki comunitaria destacan las estructuras iniciales disponibles para la planificación urbana básica:
+
+| Categoría | Edificios principales | Recurso principal / Rol | Consideración estratégica |
+| :--- | :--- | :--- | :--- |
+| **Fuentes de energía** | Solar Panels, Wind Turbines, Coal Power Plants | Generación de energía | Las plantas de carbón ofrecen alta potencia confiable, pero requieren entregas físicas de camiones de carbón. |
+| **Suministro de agua** | Water Tank, Desalination Factory | Agua limpia | Esencial para desbloquear la población trabajadora dentro de las zonas residenciales. |
+| **Residencial** | Poor House, Suburban House, Low Income Apartment, Mid Rise City Apartment | Ciudadanos y trabajadores | La densidad escala con el nivel de la ciudad; los niveles superiores albergan más trabajadores por casilla. |
+| **Comercial** | Shop, Gas Stations, Supermarkets, Office Buildings, Banks | Ingresos fiscales / Dinero | Genera ingresos por intervalo de tiempo; queda completamente inoperativo sin trabajadores disponibles. |
+| **Agricultura** | Wheat Farm, Farm Field, Cattle Farm | Suministro de alimentos | Mantiene a la creciente población de ciudadanos y evita el estancamiento cívico. |
+
+Un obstáculo común reportado en la experiencia de los jugadores consiste en toparse con un muro de progresión entre los niveles 1 y 2 del asentamiento. Los jugadores a menudo construyen cientos de unidades residenciales, superan los 500 ciudadanos y, sin embargo, no logran avanzar. En casi todos los informes comunitarios, este cuello de botella se debe al desempleo generalizado. Colocar viviendas en masa sin los espacios comerciales correspondientes (como Shops, Gas Stations y Strip Malls) deja a cientos de ciudadanos sin empleo, lo que impide que el algoritmo de nivel de asentamiento active la mejora.
+
+---
+
+## Extracción de recursos y logística industrial
+
+Tu ejército nunca saldrá de la línea de ensamblaje sin materias primas. Una vez que tu base financiera se estabilice, tu **estrategia de Build and Conquer** debe orientarse hacia la extracción primaria: carbón, hierro y petróleo.
+
+Las minas extraen mineral de carbón y hierro, mientras que las bombas petroleras (Oil Pumps) extraen crudo. Estos insumos básicos no alimentan directamente a las unidades militares; deben transportarse mediante redes viales hacia instalaciones secundarias de refinación. Las refinerías pequeñas y medianas (Small y Medium Refineries) procesan el petróleo crudo para convertirlo en combustible vital (Fuel), mientras que las fábricas pequeñas (Small Factories) transforman el hierro y el carbón en bienes de consumo (Consumer Goods) y acero para construcción.
+
+### Canales de refinación industrial y producción
+
+Según los datos de la wiki comunitaria, la cadena industrial fluye de acuerdo con conversiones de materiales específicas:
+
+| Sitio de extracción primaria | Recurso extraído | Instalación de procesamiento | Productos intermedios y finales |
+| :--- | :--- | :--- | :--- |
+| **Mina (Yacimiento de carbón)** | Coal Ore | Coal Power Plant / Small Factory | Electricidad para la red eléctrica, componentes de acero procesados |
+| **Mina (Yacimiento de hierro)** | Iron Ore | Small Factory | Consumer Goods, materiales estructurales militares |
+| **Bomba petrolera** | Crude Oil | Small Refinery, Medium Refinery | Combustible para vehículos, propelentes químicos para cohetes |
+| **Refinerías** | Processed Fuel | Military Car Storage, Airfields | Despliegue de unidades mecanizadas, logística continua de misiles |
+
+El trazado de rutas logísticas es un tropiezo frecuente. Múltiples reportes de jugadores señalan casos en los que refinerías y fábricas permanecen inactivas a pesar de tener minas operativas en las cercanías. En *Build and Conquer*, camiones de transporte físicos recorren el trazado de tus calles para entregar mercancías. Si los caminos presentan callejones sin salida, curvas cerradas mal conectadas o carecen de acceso directo desde la acera a las bahías de carga de las fábricas, los vehículos de entrega no aparecerán ni entregarán su carga. Verifica siempre que tus zonas de extracción cuenten con conexiones directas y despejadas de dos carriles hacia los distritos de refinación industrial.
+
+---
+
+## Investigación militar y acumulación de armamento
+
+La investigación en la versión Beta actual determina qué armamento puede fabricar tu nación. Sin investigación especializada, tus instalaciones de producción quedarán limitadas al equipo básico. 
+
+La investigación se lleva a cabo mediante las instalaciones de Sloparms Office (desde Small hasta Large). Sin embargo, simplemente desbloquear un plano no concede mágicamente equipo utilizable en combate. Una **estrategia de Build and Conquer** crucial para la preparación en el juego tardío consiste en gestionar tu reserva de armas antes de declarar la guerra.
+
+### El flujo del cuartel y el equipamiento
+
+Una fuente importante de confusión entre los nuevos comandantes es el despliegue de escuadrones de infantería. Cuando los jugadores investigan el rifle de servicio M16, a menudo esperan un despliegue inmediato de escuadrones desde el Barracks (cuartel). 
+
+```
+[Oficina de Sloparms] ──(Desbloquea plano)──► [Fábrica militar] ──(Ensambla M16)──► [Despliegue en cuartel]
+```
+
+Como demuestra la experiencia reciente de la comunidad, las fábricas militares deben ensamblar físicamente las armas utilizando suministros de metal procesado antes de que la infantería pueda movilizarse. Un Barracks requiere una reserva (por ejemplo, 8 rifles fabricados) antes de que un equipo de fuego completo pueda enviarse al campo de batalla o subirse a transportes blindados de personal.
+
+### Datos comunitarios de infraestructura militar
+
+Los registros de la wiki comunitaria clasifican las estructuras militares según sus funciones operativas:
+
+| Tipo de instalación | Nombre de la estructura | Función estratégica | Requisitos previos |
+| :--- | :--- | :--- | :--- |
+| **Investigación** | Small / Medium / Large Sloparms Office | Desbloquea planos modernos y tecnología avanzada de misiles | Nivel de ciudad escalonado |
+| **Centro de infantería** | Barracks | Entrena y despliega escuadrones de fusileros activos y guarniciones defensivas | Armas ligeras almacenadas |
+| **Logística de vehículos** | Military Car Storage | Aloja, repara y abastece de combustible a los transportes terrestres motorizados | Acceso vial y combustible refinado |
+| **Artillería pesada** | Military Factory, Large Military Factory | Fabrica armamento, armas de fuego y chasis balísticos | Hierro, carbón, mano de obra fabril |
+| **Comando de drones** | Shahed Drone Launchers | Despliegue automatizado de municiones merodeadoras de largo alcance | Plano de investigación especializado |
+
+---
+
+## Diseños defensivos y sistemas antimisiles
+
+La ofensiva puede capturar territorio, pero una defensa antiaérea escalonada preserva tu inversión. Una vez que los jugadores vecinos investigan la cohetería balística, las ciudades desprotegidas pueden ser arrasadas en cuestión de minutos. Ejecutar una **estrategia de Build and Conquer** impenetrable contra vecinos agresivos requiere desplegar radares integrados y baterías antiaéreas antes de instalar costosas oficinas de alto nivel.
+
+El juego cuenta con varios niveles de guerra de misiles y sistemas de contrabatería:
+
+*   **Misiles balísticos de corto alcance (SRBM Launcher):** De disparo rápido y devastadores contra cuadrículas municipales agrupadas, pero vulnerables a las defensas de punto de corto alcance.
+*   **Misiles balísticos de alcance medio (MRBM Launcher):** Artillería de trayectoria alta capaz de atacar fábricas en el interior profundo y redes eléctricas remotas.
+*   **Iron Dome:** Sistema de intercepción de alta cadencia de tiro, óptimo para protegerse contra cohetes entrantes de bajo nivel y municiones merodeadoras como los drones Shahed.
+*   **Patriot Battery y Patriot PAC-3:** Instalaciones pesadas de misiles tierra-aire diseñadas para derribar ojivas balísticas entrantes de alcance medio antes de su descenso terminal.
+
+### Matriz defensiva y de respuesta ante amenazas
+
+Utiliza esta matriz de despliegue para equilibrar tu presupuesto defensivo frente a las tácticas hostiles:
+
+| Tipo de amenaza entrante | Interceptor principal recomendado | Contramedida secundaria | Contramedida de diseño de base |
+| :--- | :--- | :--- | :--- |
+| **Drones merodeadores Shahed** | Iron Dome | Puestos de defensa de punto avanzados | Dispersar generadores de energía en celdas de cuadrícula separadas |
+| **Bombardeos de SRBM** | Iron Dome / Patriot Battery | Equipos de reparación de respuesta rápida | Desacoplar fábricas de los núcleos residenciales para evitar daños colaterales |
+| **Ataques pesados de MRBM** | Patriot PAC-3 | Defensas antiaéreas redundantes | Colocar baterías Patriot cerca de los activos de comando central |
+| **Incursiones de tropas terrestres** | Guarniciones de Barracks fortificados | Vehículos de patrulla blindados | Construir puntos de estrangulamiento y salidas de túneles cerca de parcelas exteriores |
+
+Ubica tus instalaciones de defensa antimisiles en el perímetro de tu sector industrial principal en lugar de situarlas directamente junto a tu ayuntamiento. Esto garantiza que los proyectiles entrantes sean interceptados mientras aún sobrevuelan tierra de nadie, evitando la caída de restos o daños por salpicadura en tus depósitos de agua y centrales eléctricas.
+
+---
+
+## Hoja de ruta estratégica: De asentamiento a potencia regional
+
+Para evitar gastos innecesarios y sortear las trampas de progresión habituales en la versión de acceso anticipado, sigue un ciclo de desarrollo por fases. Perfeccionar tu **estrategia de Build and Conquer** a largo plazo significa saber cuándo priorizar la infraestructura interna y cuándo expandir las capacidades militares.
+
+### Resumen de fases de desarrollo
+
+| Fase de progresión | Hito objetivo | Meta económica | Postura militar |
+| :--- | :--- | :--- | :--- |
+| **Fase 1: Génesis del asentamiento** | Nivel de ciudad 1–2 | Construir Water Tanks, Solar Panels, Poor Houses y tiendas iniciales | Desmilitarizada; centrarse puramente en un flujo de caja positivo |
+| **Fase 2: Extracción industrial** | Nivel de ciudad 2–3 | Conectar minas de carbón/hierro y bombas de petróleo a vías limpias de dos carriles | Construir la primera Sloparms Office; iniciar investigación de armas básicas |
+| **Fase 3: Ensamblaje de municiones** | Nivel de ciudad 3–4 | Construir fábricas pequeñas, refinerías y apartamentos de nivel medio | Almacenar armas ligeras en el Barracks; desplegar los primeros vehículos de patrulla |
+| **Fase 4: Soberanía fortificada** | Nivel de ciudad 4–5 | Desplegar torres comerciales de gran altura, bancos y plantas desalinizadoras | Construir redes de Iron Dome y Patriot PAC-3; levantar silos de SRBM |
+
+Recuerda que la expansión territorial requiere reservas financieras considerables. No compres parcelas periféricas hasta que tu territorio actual opere a su máxima eficiencia de empleo, con suministro energético equilibrado, reservas agrícolas y redundancias de agua.
+
+---
+
+## Preguntas frecuentes
+
+### ¿Cuál es la mejor estrategia de Build and Conquer en el juego temprano para ganar dinero rápido?
+La forma más rápida de generar ingresos es mantener una proporción de empleo de 1:1. Construye viviendas residenciales básicas conectadas a fuentes de agua funcionales y levanta inmediatamente Shops o Small Gas Stations a lo largo de la calzada principal para absorber esa fuerza laboral. Una población empleada genera altos rendimientos fiscales, mientras que los ciudadanos desempleados consumen recursos logísticos de la ciudad sin aportar capital.
+
+### ¿Por qué mi asentamiento no sube más allá del Nivel 1 o Nivel 2 a pesar de tener una gran población?
+Según la experiencia de los jugadores y los reportes de la comunidad, subir de nivel exige métricas cívicas equilibradas y no un simple recuento de habitantes. Si tienes 500 residentes pero la mayoría está desempleada, carece de agua limpia o no tiene acceso vial a zonas comerciales, la calificación de tu ciudad se estancará. Asegúrate de que la generación eléctrica supere al consumo, que el agua cubra todas las parcelas residenciales y que existan suficientes espacios comerciales para dar empleo a tus ciudadanos.
+
+### ¿Por qué mis minas y bombas de petróleo no entregan recursos a mis fábricas?
+Este problema suele originarse en el trazado vial. Los camiones de entrega de recursos necesitan una conectividad ininterrumpida por carretera entre el sitio de extracción y la fábrica de destino. Asegúrate de que las flechas de entrada de los edificios se alineen directamente con las casillas de carretera adyacentes y de que no haya huecos, intersecciones rotas o terreno sin pavimentar entre tus bombas petroleras, minas y refinerías.
+
+### ¿Cómo entreno y despliego infantería desde el Barracks?
+Investigar el plano de un arma (como el M16) en una Sloparms Office es solo el primer paso. Luego debes construir una Military Factory para fabricar esas armas utilizando tus reservas de acero. Una vez que la cantidad requerida de armas haya sido manufacturada y entregada al inventario de tu Barracks, podrás generar escuadrones de fusileros totalmente armados para operaciones de defensa o transporte.

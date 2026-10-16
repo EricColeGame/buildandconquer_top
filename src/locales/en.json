@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "progression": "Progression",
+    "mechanics": "Mechanics",
+    "combat": "Combat",
+    "platforms": "Platforms",
+    "codes": "Codes",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -461,7 +468,34 @@
       "secondary": "Play Build and Conquer on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Build and Conquer Guides",
+    "overviewDescription": "Start your nation the right way with beginner walkthroughs, money and resource farming routes, iron and steel production tips, and the habits that keep a young city growing."
+  },
+  "progression": {
+    "overviewTitle": "City Progression",
+    "overviewDescription": "Every city level from your first plot to a full metropolis: what unlocks, how much population and power you need, and the fastest order to upgrade roads, housing and factories."
+  },
+  "mechanics": {
+    "overviewTitle": "Game Mechanics",
+    "overviewDescription": "How Build and Conquer actually works under the hood: resources and storage, fuel and power, research, unit production, military buildings and the numbers behind each system."
+  },
+  "combat": {
+    "overviewTitle": "Combat & Warfare",
+    "overviewDescription": "Plan invasions and defend your borders: army composition, battle tactics, missile and drone strikes, and the strategy that decides who keeps the ground."
+  },
+  "platforms": {
+    "overviewTitle": "Platforms & Download",
+    "overviewDescription": "Where you can play Build and Conquer: the Roblox experience, PC and mobile options, download steps and what to expect from each platform."
+  },
+  "codes": {
+    "overviewTitle": "Build and Conquer Codes",
+    "overviewDescription": "The full list of active Build and Conquer codes for free resources and boosts, plus how to redeem them and what to do when a code stops working."
+  },
+  "community": {
+    "overviewTitle": "Community & Media",
+    "overviewDescription": "Official links, Discord and Reddit hubs, gameplay breakdowns and the trailer, plus walkthroughs and build orders shared by other players."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -492,9 +526,9 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Official Roblox Group",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "progressionGuides": "Progression",
+    "combatGuides": "Combat",
+    "codesGuides": "Codes",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

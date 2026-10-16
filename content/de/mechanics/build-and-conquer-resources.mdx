@@ -1,0 +1,171 @@
+export const metadata = {
+  title: "Build and Conquer Ressourcen meistern: Kompletter Wirtschafts- & Produktions-Guide",
+  description: "Erfahren Sie, wie Sie Ressourcen in Build and Conquer effektiv verwalten. Meistern Sie Stromnetze, Wasserversorgung, industrielle Rohstoffe und Militärlogistik.",
+  category: "mechanics",
+  date: "2026-10-16",
+};
+
+Das effiziente Verwalten Ihrer **Build and Conquer-Ressourcen** entscheidet darüber, ob Sie eine florierende Supermacht anführen oder zusehen müssen, wie Ihre Staatskasse im plötzlichen Bankrott versinkt. In diesem modernen Militär-City-Builder von The Slop Company ist jede Straße, jedes Kraftwerk und jede Raketenbatterie auf eine miteinander verknüpfte Logistikkette angewiesen. Ganz gleich, ob Sie Ihren ersten Wasserturm errichten oder weitreichende Raketenbatterien mit Treibstoff versorgen: Zu verstehen, wie die **Build and Conquer-Ressourcen** ineinandergreifen, sichert die Zahlungsfähigkeit, Stromversorgung und Verteidigung Ihrer Nation gegen feindliche Nachbarn.
+
+Da sich das Spiel derzeit in der aktiven Beta (V0.1) befindet, ändern sich Balance-Werte mit jedem Patch. Der Erfolg hängt davon ab, grundlegende Versorgungsnetzwerke zu meistern, bevor man voreilig teure Militärausrüstung baut.
+
+---
+
+## Die Kernwirtschaft: Wie Build and Conquer-Ressourcen die Expansion antreiben
+
+Die Wirtschaft des Spiels basiert auf zyklischen Produktionskreisläufen. Anders als in einfachen Sandbox-Spielen, in denen sich Geld endlos ansammelt, hängt der Cashflow Ihrer Stadt direkt davon ab, das Wachstum von Wohngebieten, Gewerbegewinne und die Betriebskosten der Infrastruktur auszubalancieren. Jedes Gebäude, das Sie platzieren, verursacht laufende Unterhaltskosten pro Abrechnungszyklus (Pay Cycle), Energiebedarf und Wasserabhängigkeiten.
+
+Community-Berichte zeigen, dass neue Bürgermeister oft innerhalb ihrer ersten dreißig Minuten pleitegehen. Dieser Zusammenbruch tritt meist dann auf, wenn Spieler schwere Verteidigungsinfrastruktur oder hochentwickelte Bürokomplexe errichten, bevor die zivile Basiswirtschaft diese tragen kann.
+
+```
+[Wasser + Energie] ➔ [Wohnraum / Bevölkerung] ➔ [Arbeitskräfte] ➔ [Gewerbe- & Industrieertrag] ➔ [Steuern & Stahl] ➔ [Militärische Verteidigung]
+```
+
+Um sauber durch die Stadt-Level (City Levels) voranzukommen, müssen Sie Ihre Bilanz genau verstehen. Mit jedem Abrechnungszyklus generieren Gewerbeflächen und bewohnte Residenzen Geld, während Wartung und Lieferketten Mittel verschlingen. Fällt Ihr Nettoeinkommen ins Negative, stoppt der Bau neuer Gebäude, Fabriken stehen still und Ihr städtisches Versorgungsnetz bricht zusammen.
+
+---
+
+## Grundlegende Versorgung: Energie- und Wasserinfrastruktur verwalten
+
+Bevor Sie Mineralien abbauen oder fortschrittliche Munition herstellen, müssen Sie die städtischen Lebensadern sichern: Strom und sauberes Wasser. Ohne Strom können Gewerbezonen nicht arbeiten. Ohne Wasser verlieren Wohngebäude ihre Bewohner, was sowohl Ihre Steuerbasis als auch Ihre Arbeitskräfte vernichtet.
+
+### Energieerzeugungssysteme
+
+Die Energieverteilung erfolgt lokal, sofern sie nicht erweitert wird. Kraftwerke besitzen begrenzte Radien, was bedeutet, dass Sie Umspannwerke (Substations) platzieren müssen, um Strom tiefer in Ihre Stadtbezirke zu leiten. In der Anfangsphase macht saubere grüne Energie jegliche Treibstofflogistik überflüssig; hochverdichtete Wolkenkratzer und Verteidigungssysteme benötigen jedoch enorme Mengen an Netzstrom.
+
+*Daten aus dem Community-Wiki zeigen die folgenden Leistungsprofile für Energiegeneratoren im frühen und späten Spielverlauf:*
+
+| Energiegebäude | Baukosten | Bauzeit | Energieertrag | Unterhalt / Treibstoffbedarf | Stadt-Level-Freischaltung |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Solar Panel** | $100 | 12s | 20 Energie | Keine (Kein Treibstoff & Unterhalt) | Level 1 |
+| **Wind Turbine** | $500 | 24s | 200 Energie | -$2 / Abrechnungszyklus | Level 1 |
+| **Substation** | $700 | 16s | Stromrelais | -$2 / Abrechnungszyklus (Benötigt Kraftwerksreichweite) | Level 1 |
+| **Coal Power Plant** | $5.000 | 32s | 6.000 Energie | -$18 / Abrechnungszyklus + Verbrennt Kohle | Level 2 |
+| **Nuclear Power Plant** | $50.000 | 80s | 60.000 Energie | -$120 / Abrechnungszyklus, 500 Stahl, -1 Uran/min | Level 4 |
+
+Für die frühe Expansion sind Windkraftanlagen besonders vorteilhaft. Solarpanels sind zwar wartungsfrei, ihr geringer Ertrag verbraucht jedoch unverhältnismäßig viel Bauplatz. Sobald Sie auf Level 2 zu Kohlekraftwerken übergehen, sollten Sie stabile Rohstoff-Lieferketten etablieren, um verheerende Stromausfälle zu vermeiden.
+
+### Wasserverteilungsnetze
+
+Die Wasserversorgung fungiert als absoluter Flaschenhals für die Bevölkerungskapazität. Wenn einem Haus fließendes Wasser fehlt, ziehen die Bürger weg, was zu akutem Arbeitskräftemangel in nahegelegenen Geschäften und Raffinerien führt.
+
+| Wasserbauwerk | Baukosten | Abdeckung / Kapazität | Unterhaltskosten | Wichtige Voraussetzungen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Water Tower** | $12 | 200 Bürger (500x500 Bereich) | -$2 / Abrechnungszyklus | Lokale Platzierung |
+| **Desalination Plant** | $5.000 | Unbegrenzte stadtweite Abdeckung | -$25 / Abrechnungszyklus | 200 Energie (+1.000 Energie pro Bürger-Skalierung) |
+
+Erfahrungswerte von Spielern legen nahe, in frühen Entwicklungsphasen auf lokale Wassertürme zu setzen. Die Entsalzungsanlage bietet zwar ein unbegrenztes stadtweites Leitungsnetz, ihr exponentieller Energieverbrauch kann Ihre frühe Stromversorgung jedoch schnell überlasten, wenn die Bevölkerung schneller wächst als Ihre Kraftwerke.
+
+---
+
+## Industrielle Lieferketten: Rohstoffe, Treibstoff und Stahlproduktion
+
+Der Abbau und die Weiterverarbeitung von Rohmineralien bilden das Rückgrat der nationalen Stärke im Mid-Game. Fortgeschrittene Bauvorhaben und Raketenprogramme können sich nicht allein auf Geld stützen; sie erfordern physische Güter, die in Industriesektoren produziert werden.
+
+Das Management nachgelagerter **Build and Conquer-Ressourcen** wie Stahl und raffiniertem Treibstoff ermöglicht es Ihrer Stadt, von einem wehrlosen Siedlungsnetz zu einer befestigten Großmacht aufzusteigen.
+
+```
+Minen (Kohle & Eisen) ──────► Industriefabriken ────► Baustahl & Konsumgüter
+Ölpumpen (Rohöl) ───────────► Raffinerien ──────────► Raffinierter Treibstoff & Munitionsnachschub
+```
+
+### Wichtige Roh- und Veredelungsrohstoffe
+
+*   **Kohle:** Wird aus natürlichen Vorkommen abgebaut; dient als Brennstoff für herkömmliche Wärmekraftwerke und industrielle Verarbeitungsprozesse.
+*   **Eisenerz:** Wird über Minen gefördert; speist direkt Schmelzhütten, um fertiges Baumetall herzustellen.
+*   **Rohöl:** Wird aus Lagerstätten gepumpt; wird in Industriesektoren transportiert, um in Treibstoff umgewandelt zu werden.
+*   **Raffinierter Treibstoff:** Wird in kleinen und mittleren Raffinerien verarbeitet; unverzichtbar für Fahrzeugmanöver, Logistik und Schwertransporte.
+*   **Stahl:** Hochentwickelte Konstruktionslegierung, die für Bürotürme mittlerer bis hoher Stufen, städtische Infrastruktur und Verteidigungsbatterien benötigt wird.
+*   **Uran:** Spaltbares High-Tier-Material, das minütlich für den Betrieb von Kernkraftwerken verbraucht wird.
+
+Um die neuesten Balance-Anpassungen einzusehen oder am Community-Testzweig teilzunehmen, besuchen Sie die [offizielle Build and Conquer-Erlebnisseite auf Roblox](https://www.roblox.com/games/103767961452227/Build-and-Conquer). Ein Auge auf aktive Patches zu haben hilft Ihnen, Änderungen bei den Logistikkosten vorherzusehen, bevor Sie Ihre Basis umbauen.
+
+---
+
+## Die Arbeitskräfte ausbalancieren: Wohndichte vs. Gewerbegewinn
+
+Jede Gewerbeimmobilie erfordert zwei Eingaben: Versorgungsanschlüsse und verfügbare Arbeiter. Arbeiter stammen ausschließlich aus Ihren Wohnvierteln. Das richtige Gleichgewicht zwischen Wohnraumausbau und Gewerbebeschäftigung stabilisiert die Gewinne pro Abrechnungszyklus.
+
+Spielerberichte zeigen, dass der verfrühte Bau zu vieler hochverdichteter Bürogebäude zu einem Arbeitskräftedefizit führt. Wenn einem Büro die Arbeiter fehlen, generiert es keine Steuereinnahmen, bucht aber dennoch in jedem Zyklus seine fixen Unterhaltskosten ab.
+
+### Wohnraum-Stufen (Residential Tiers)
+
+*Aus der Community gemeldete Daten zeigen folgende Werte für gängige Wohnoptionen:*
+
+| Wohntyp | Kosten | Bauzeit | Wohnraum / Bevölkerung | Nettoertrag pro Zyklus | Grundvoraussetzungen |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Poor House** | $50 | 16s | +3 Einw. | +$4 | 5 Energie, Wasser |
+| **Standard House** | $136 | 16s | +5 Einw. | +$10 | 5 Energie, Wasser |
+| **Two Story House** | $170 | 16s | +8 Einw. | +$9 | 5 Energie, Wasser |
+| **Low Income Apartment** | $336 | 16s | +14 Einw. | $0 (Nur Arbeitskräfte) | 5 Energie, Wasser |
+| **Middle Class Apartment**| $730 | 16s | +10 Einw. | +$26 | 5 Energie, Wasser |
+| **City Apartment** | $2.200| 32s | +20 Einw. | +$80 (-$12 Unterhalt) | 15 Energie, Wasser, 22 Stahl |
+| **Mid Rise Apartment 1** | $3.672| 40s | +32 Einw. | +$120 (-$17 Unterhalt) | 18 Energie, Wasser, 36 Stahl |
+
+Einfache Wohngebäude bringen frühe, verlässliche Einnahmen ohne jegliche Stahlkosten. Sobald Stahlwerke betriebsbereit sind, maximiert der Wechsel zu City-Apartments die Baudichte, während die Zufriedenheit der Bewohner gewahrt bleibt.
+
+### Gewerbezentren und Büro-Skalierung
+
+Gewerbeimmobilien verwandeln ungenutzte zivile Arbeitskraft in beachtliche Einnahmequellen. Einzelhandelsbetriebe wie Tankstellen und Tante-Emma-Läden liefern einen moderaten ersten Cashflow, während Bürohochhäuser enorme Summen pro Abrechnungszyklus einbringen – allerdings auf Kosten eines enormen Bedarfs an Arbeitskräften.
+
+| Gewerbebetrieb | Kosten | Benötigte Arbeiter | Ertrag pro Zyklus | Unterhaltskosten | Materialbedarf |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Shop** | $400 | 2 Arbeiter | +$65 | -$3 | Keine |
+| **Small Gas Station** | $550 | 2 Arbeiter | +$80 | -$4 | Keine |
+| **Strip Mall** | $1.600 | 6 Arbeiter | +$200 | -$8 | Keine |
+| **Large Supermarket** | $2.400 | 8 Arbeiter | +$260 | -$10 | 24 Stahl |
+| **Convenient Bank** | $4.600 | 8 Arbeiter | +$300 | -$30 | Keine |
+| **Low Rise Office** | $7.000 | 30 Arbeiter | +$420 | -$45 | 70 Stahl |
+| **Mid Rise Office 1** | $14.000| 50 Arbeiter | +$700 | -$85 | 140 Stahl |
+| **High Rise Office 1** | $24.000| 80 Arbeiter | +$1.100 | -$140 | 240 Stahl |
+
+Bauen Sie bei der Skalierung von Büros niemals über Ihren verfügbaren Arbeitskräftepool hinaus. Errichten Sie zuerst Wohnungen, prüfen Sie die Infrastrukturreserven und platzieren Sie Bürohochhäuser erst dann, wenn in Ihrer Stadtübersicht ungenutzte Arbeiter verfügbar sind.
+
+---
+
+## Verteidigung und Kriegsführung: Wie man zivilen Wohlstand in Feuerkraft umwandelt
+
+Eine florierende Wirtschaft weckt schnell das Interesse benachbarter Spieler. Tunnel führen direkt auf das umkämpfte Festland hinaus, was bedeutet, dass Ihre zivile Infrastruktur anfällig für Raketenangriffe, Drohnenschwärme und mechanisierte Raubzüge bleibt.
+
+Das Bevorraten kritischer **Build and Conquer-Ressourcen** ermöglicht es Ihnen, Luftverteidigungslinien aufzubauen und Vergeltungswaffen zu produzieren.
+
+```
+Heimische Wirtschaft ($) ──► Militärforschung ──► Munition & Raketenwerfer ──► Überlegenheit auf dem Festland
+```
+
+### Militärische Infrastruktur und Produktionsanlagen
+
+*   **Kaserne (Barracks):** Rekrutiert Bodenpersonal für regionale Gefechte und Tunneleinsätze.
+*   **Militärfabriken & Fahrzeuglager:** Verarbeitet heimischen veredelten Stahl und Treibstoff zu Kampftransportfahrzeugen, gepanzerten Unterstützungseinheiten und Logistik-Lkw.
+*   **Sloparms-Büros (Klein / Mittel / Groß):** Administrative Forschungszentren, die fortschrittliche Militärdoktrinen, Zielerfassungshardware und Verteidigungssysteme freischalten.
+*   **Flugabwehrbatterien (Iron Dome, Patriot-Batterie, Patriot PAC-3):** Automatisierte Boden-Luft-Systeme zum Abfangen feindlicher taktischer Raketen, Hyperschallwaffen und Shahed-Angriffsdrohnen.
+*   **Raketenabschussbasen (SRBM- & MRBM-Werfer):** Strategische Waffen mit hoher Zerstörungskraft, die in der Lage sind, feindliche Industriecluster, Entsalzungsanlagen und Verteidigungsbatterien auf der gesamten Karte ins Visier zu nehmen.
+
+Flugabwehrsysteme verursachen beträchtliche laufende Betriebskosten. Wenn ein überraschender Angriff Ihr Stromnetz lahmlegt, schalten sich Ihre Iron-Dome-Batterien sofort ab, wodurch der Rest Ihrer Stadt schutzlos zurückbleibt. Platzieren Sie zusätzliche Windkraftanlagen und Umspannwerke in der Nähe kritischer Militärbezirke, um die Radaranlagen der Flugabwehr auch bei Stromausfällen online zu halten.
+
+---
+
+## 4 Grundregeln für das Ressourcenmanagement
+
+1.  **Übersteigen Sie niemals Ihre Energiereserven:** Halten Sie einen Energiepuffer von 15–20 % aufrecht. Neue Fabriken oder Entsalzungsanlagen ohne Blick auf die Netzkapazitäten zu bauen, führt zu kaskadierenden Stromausfällen in Ihrer gesamten Stadt.
+2.  **Trennen Sie Industrieverschmutzung von Wohngebieten:** Werden Minen und Schwerindustrie direkt neben Wohnvierteln platziert, sinkt die Zufriedenheit der Bewohner, was den gesamten Steuerertrag schmälert.
+3.  **Bilden Sie Notfall-Geldreserven:** Geben Sie Ihre Staatskasse nicht bis auf den letzten Cent für Angriffswaffen aus. Behalten Sie Reserven für mindestens fünf Abrechnungszyklen zurück, um nach einem Luftangriff unerwartete Reparaturen der Infrastruktur abzufedern.
+4.  **Infrastruktur verlegen vor dem Ausbau:** Verlegen Sie immer zuerst Straßen, Umspannwerke und Wassernetze, bevor Sie teure Baupläne für Büros platzieren.
+
+Indem Sie disziplinierte Versorgungslinien aufrechterhalten, Wohnungsbau und Gewerbenachfrage im Gleichgewicht halten und die Schwerindustrie mit gestaffelten Luftverteidigungsnetzen absichern, wird Ihre Stadt jedes Update und jeden Konflikt erfolgreich überstehen.
+
+---
+
+## Häufig gestellte Fragen (FAQ)
+
+### Was sollte ich tun, wenn mein Geld rapide ins Minus stürzt?
+Ein rascher Verlust der Staatskasse geschieht, wenn die Unterhaltskosten die Gewerbeeinnahmen übersteigen – meist, weil Gebäuden Arbeiter oder Strom fehlen. Stoppen Sie sofort alle militärischen Bauvorhaben. Überprüfen Sie Ihre Gewerbegebäude: Zeigt ein Büro die Meldung „Nicht genügend Arbeiter“ oder „Kein Strom“, verursacht es laufende Kosten, ohne Gewinne zu erzielen. Reißen Sie überflüssige Gebäude mit hohen Unterhaltskosten ab oder bauen Sie zügig Standardhäuser im Wasserversorgungsbereich, um den nötigen Arbeiterpool bereitzustellen.
+
+### Wie schalte ich Level-2- und Level-3-Gebäude in Build and Conquer frei?
+Um höhere Stadt-Level zu erreichen, müssen Sie bestimmte Bevölkerungsmeilensteine erfüllen, eine positive Bilanz pro Abrechnungszyklus vorweisen und städtische Dienstleistungen wie Strafverfolgung bereitstellen. Laut Community-Berichten erfordert das Erreichen von Level 2 stabile zivile Bevölkerungszahlen, Sicherheitseinrichtungen wie das Sheriff's Office ($500) sowie eine lückenlose Grundversorgung in allen bewohnten Zonen.
+
+### Woher bekomme ich Stahl, um moderne Bürotürme und Militärausrüstung zu bauen?
+Stahl ist ein veredeltes Zwischenprodukt, das in Industriefabriken hergestellt wird. Sie müssen Eisen und Kohle über Minen abbauen und diese Rohstoffe dann funktionierenden Fabriken zuführen. Nach der Verarbeitung wird der Stahl automatisch Ihrem Bauinventar gutgeschrieben und steht für fortschrittliche Bürotürme, städtische Einrichtungen und Raketenstellungen zur Verfügung.
+
+### Was sind die wichtigsten Build and Conquer-Ressourcen zur Abwehr von Raketenangriffen?
+Eine frühe Raketenabwehr stützt sich vor allem auf Energie, Kapital und erforschte Militärtechnologie. Redundante Stromgeneratoren verhindern, dass Flugabwehrbatterien bei Beschuss ausfallen. Sobald sie über den Sloparms-Technologiebaum erforscht sind, erzeugen Iron-Dome- oder Patriot-PAC-3-Stellungen einen Abfangschirm – vorausgesetzt, Ihre Stadt erwirtschaftet verlässlich genug Geld, um die Unterhaltskosten pro Abrechnungszyklus zu decken.
