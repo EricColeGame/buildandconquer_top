@@ -1,14 +1,14 @@
-import { BookOpen, Code2, Flame, Map, Swords, Trophy, Users, Zap } from "lucide-react";
+export interface NavItem {
+  key: string;
+  path: string;
+  isContentType: boolean;
+}
 
-export const NAVIGATION_CONFIG = [
-  { key: "races", path: "/races", icon: Users, isContentType: true },
-  { key: "bosses", path: "/bosses", icon: Swords, isContentType: true },
-  { key: "guides", path: "/guide", icon: BookOpen, isContentType: true },
-  { key: "codes", path: "/codes", icon: Code2, isContentType: true },
-  { key: "tierList", path: "/tier-list", icon: Trophy, isContentType: true },
-  { key: "maps", path: "/maps", icon: Map, isContentType: true },
-  { key: "skills", path: "/skills", icon: Flame, isContentType: true },
-  { key: "updates", path: "/updates", icon: Zap, isContentType: false },
-] as const;
+/**
+ * 站点导航配置。
+ * 本阶段（Part 3）清空内容型导航，仅保留空数组占位；
+ * CONTENT_TYPES 由本配置派生，保证列表页/站点地图与导航始终同源。
+ */
+export const NAVIGATION_CONFIG: NavItem[] = [];
 
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map((item) => item.path.replace(/^\//, ""));
